@@ -16,6 +16,7 @@ from app.services.normalize import extract_domain
 from app.services.personalize import personalize_all
 from app.services.score import load_icp, score_all
 from app.services.suppress import apply_suppressions, load_suppressions
+from app.services.privacy import mask_person_name
 from app.settings import settings
 
 
@@ -83,6 +84,23 @@ def compute_funnel(db: Session) -> dict:
     }
 
 
+def _persist_public_demo_masks(db: Session) -> None:
+    """Store masked personnel in DB for committed Vercel snapshots."""
+    if not settings.public_demo:
+        return
+    for company in db.query(Company).all():
+        lic = company.license_number or ""
+        if company.owner_name:
+            company.owner_name = mask_person_name(company.owner_name, license_number=lic)
+        for person in company.people:
+            person.name = mask_person_name(person.name, license_number=lic)
+        for fact in company.facts:
+            if fact.kind == "team_member":
+                fact.value = mask_person_name(fact.value, license_number=lic)
+                fact.snippet = mask_person_name(fact.snippet, license_number=lic)
+    db.commit()
+
+
 def run_pipeline(db: Session, *, reset: bool = True) -> PipelineRun:
     if reset:
         from app.db import models
@@ -128,6 +146,7 @@ def run_pipeline(db: Session, *, reset: bool = True) -> PipelineRun:
     apply_suppressions(db)
     score_all(db)
     personalize_all(db)
+    _persist_public_demo_masks(db)
 
     out_dir = Path(__file__).resolve().parents[2] / "data" / "exports"
     csv_path, report_path = export_sample_bundle(db, out_dir)

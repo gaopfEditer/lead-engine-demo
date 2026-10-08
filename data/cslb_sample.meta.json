@@ -12,5 +12,7 @@
   ],
   "synthetic": false,
   "notes": "Subset of official CSLB export; personnel joined from statewide Personnel CSV filtered to sample licenses.",
-  "personnel_rows": 240
+  "personnel_rows": 240,
+  "personnel_names_masked": true,
+  "personnel_name_hash_count": 238
 }

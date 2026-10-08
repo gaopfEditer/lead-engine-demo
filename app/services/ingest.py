@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 
 from app.db.models import Company, Person
 from app.services.normalize import extract_domain, normalize_phone
+from app.services.privacy import mask_person_name
 from app.settings import settings
 
 
@@ -112,6 +113,8 @@ def ingest_cslb_sample(db: Session, csv_path: Path | None = None) -> tuple[int, 
             name = (prow.get("PersonnelName") or prow.get("Name") or "").strip()
             if not name:
                 continue
+            if settings.public_demo:
+                name = mask_person_name(name, license_number=lic)
             db.add(
                 Person(
                     company_id=company.id,

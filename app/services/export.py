@@ -9,7 +9,9 @@ from pathlib import Path
 from sqlalchemy.orm import Session
 
 from app.db.models import Company, Contact, MergeCluster, Score
+from app.services.privacy import scrub_export_row
 from app.services.verify import exportable_status
+from app.settings import settings
 
 
 def _latest_score(company: Company) -> Score | None:
@@ -43,23 +45,24 @@ def leads_to_csv_rows(db: Session, companies: list[Company]) -> list[dict]:
             "",
         )
         draft = company.drafts[0] if company.drafts else None
-        rows.append(
-            {
-                "license_number": company.license_number,
-                "business_name": company.business_name,
-                "county": company.county,
-                "classifications": company.classifications,
-                "owner_name": company.owner_name or "",
-                "email": email,
-                "phone_e164": company.phone_e164 or "",
-                "website": company.website_url or "",
-                "score": sc.score if sc else "",
-                "tier": sc.tier if sc else "",
-                "first_line": draft.first_line if draft else "",
-                "source_url": company.source_url,
-                "sourced_at": company.sourced_at,
-            }
-        )
+        row = {
+            "license_number": company.license_number,
+            "business_name": company.business_name,
+            "county": company.county,
+            "classifications": company.classifications,
+            "owner_name": company.owner_name or "",
+            "email": email,
+            "phone_e164": company.phone_e164 or "",
+            "website": company.website_url or "",
+            "score": sc.score if sc else "",
+            "tier": sc.tier if sc else "",
+            "first_line": draft.first_line if draft else "",
+            "source_url": company.source_url,
+            "sourced_at": company.sourced_at,
+        }
+        if settings.public_demo:
+            row = scrub_export_row(row, license_number=company.license_number)
+        rows.append(row)
     return rows
 
 

@@ -65,7 +65,15 @@ def download_personnel(dest: Path) -> Path:
     return dest
 
 
-def build_sample(license_xlsx: Path, personnel_csv: Path, out_csv: Path, meta_path: Path, limit: int = 120) -> None:
+def build_sample(
+    license_xlsx: Path,
+    personnel_csv: Path,
+    out_csv: Path,
+    meta_path: Path,
+    limit: int = 120,
+    *,
+    mask_personnel: bool = False,
+) -> None:
     import pandas as pd
 
     lic = pd.read_excel(license_xlsx).head(limit)
@@ -103,7 +111,18 @@ def build_sample(license_xlsx: Path, personnel_csv: Path, out_csv: Path, meta_pa
                 "PersonnelTitle": "",
             }
         )
+    import sys
+
+    sys.path.insert(0, str(ROOT))
+    from app.services.privacy import hash_personnel_name, mask_person_name
+
+    banned_hashes: list[str] = []
     for pr in personnel_rows:
+        raw_name = pr.get("Name", "") or ""
+        lic = str(int(pr["LIC-NO"]))
+        if mask_personnel and raw_name.strip():
+            banned_hashes.append(hash_personnel_name(raw_name))
+            raw_name = mask_person_name(raw_name, license_number=lic)
         rows.append(
             {
                 "record_type": "personnel",
@@ -120,7 +139,7 @@ def build_sample(license_xlsx: Path, personnel_csv: Path, out_csv: Path, meta_pa
                 "ExpirationDate": "",
                 "Classification(s)": pr.get("CL-CDE", ""),
                 "Status": "",
-                "PersonnelName": pr.get("Name", ""),
+                "PersonnelName": raw_name,
                 "PersonnelTitle": pr.get("EMP-Titl-CDE", ""),
             }
         )
@@ -135,20 +154,35 @@ def build_sample(license_xlsx: Path, personnel_csv: Path, out_csv: Path, meta_pa
         "classifications": ["C-10", "C-20", "C-36"],
         "synthetic": False,
         "personnel_rows": len(personnel_rows),
+        "personnel_names_masked": mask_personnel,
     }
     meta_path.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    if mask_personnel and banned_hashes:
+        hash_path = out_csv.parent / "cslb_personnel_name_hashes.txt"
+        hash_path.write_text("\n".join(sorted(set(banned_hashes))) + "\n", encoding="utf-8")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-download", action="store_true")
+    parser.add_argument(
+        "--mask-personnel",
+        action="store_true",
+        help="Mask personnel names in cslb_sample.csv (recommended before committing to a public repo).",
+    )
     args = parser.parse_args()
     license_xlsx = OUT / "cslb_raw_counties.xlsx"
     personnel_csv = OUT / "cslb_personnel_full.csv"
     if not args.skip_download:
         download_county_export(["Alameda", "Sacramento"], ["C-10", "C-20", "C-36"], license_xlsx)
         download_personnel(personnel_csv)
-    build_sample(license_xlsx, personnel_csv, OUT / "cslb_sample.csv", OUT / "cslb_sample.meta.json")
+    build_sample(
+        license_xlsx,
+        personnel_csv,
+        OUT / "cslb_sample.csv",
+        OUT / "cslb_sample.meta.json",
+        mask_personnel=args.mask_personnel,
+    )
 
 
 if __name__ == "__main__":

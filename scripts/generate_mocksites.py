@@ -8,6 +8,11 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+import sys
+
+sys.path.insert(0, str(ROOT))
+from app.services.privacy import mask_person_name  # noqa: E402
+
 DATA = ROOT / "data"
 MOCK = ROOT / "mocksites"
 SITES = MOCK / "sites"
@@ -141,16 +146,17 @@ def main() -> None:
             lic = str(row.get("LicenseNumber"))
             if lic not in registry:
                 continue
-            name = row.get("PersonnelName") or row.get("Name") or ""
+            name = (row.get("PersonnelName") or row.get("Name") or "").strip()
             title = (row.get("PersonnelTitle") or "").lower()
             if "owner" in title or "officer" in title or "president" in title or registry[lic]["archetype"] == "owner_match":
-                registry[lic]["owner_hint"] = name
+                display_name = mask_person_name(name, license_number=lic) if name else name
+                registry[lic]["owner_hint"] = display_name
                 # rebuild about page with owner for owner_match / hot leads
-                if name and registry[lic].get("slug"):
+                if display_name and registry[lic].get("slug"):
                     build_site(
                         registry[lic]["slug"],
                         registry[lic]["archetype"],
-                        name,
+                        display_name,
                         row.get("BusinessName") or registry[lic]["slug"],
                     )
 

@@ -17,6 +17,8 @@ class Settings:
     hubspot_token: str | None = os.getenv("HUBSPOT_TOKEN")
     email_verifier: str = os.getenv("EMAIL_VERIFIER", "mock")
     demo_read_only: bool = os.getenv("DEMO_READ_ONLY", "").lower() in ("1", "true", "yes")
+    # Mask CSLB personnel / owner names in UI, exports, and ingest (off for local full-data runs).
+    public_demo: bool = os.getenv("PUBLIC_DEMO", "").lower() in ("1", "true", "yes")
     user_agent: str = "ContractorLeadEngineDemo/1.0 (+https://github.com/demo; portfolio)"
 
 

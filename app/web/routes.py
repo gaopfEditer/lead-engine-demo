@@ -13,10 +13,15 @@ from app.db.session import SessionLocal, get_db
 from app.services.export import csv_string, export_sample_bundle, exportable_companies, leads_to_csv_rows, quality_report
 from app.services.pipeline import compute_funnel, run_pipeline
 from app.services.score import load_icp, score_all
+from app.services.privacy import scrub_company
 from app.settings import settings
 
 router = APIRouter()
 TEMPLATES = Path(__file__).parent / "templates"
+
+
+def _public_company(company: Company) -> Company:
+    return scrub_company(company) if settings.public_demo else company
 
 
 def render(name: str, **ctx) -> HTMLResponse:
@@ -68,7 +73,7 @@ def leads_page(
         if tier and (not sc or sc.tier != tier):
             continue
         email = next((ct.value for ct in c.contacts if ct.status == "ok" and not ct.is_guessed), "")
-        rows.append({"company": c, "score": sc, "email": email})
+        rows.append({"company": _public_company(c), "score": sc, "email": email})
     rows.sort(key=lambda r: r["score"].score if r["score"] else -1, reverse=True)
     return render("leads.html", request=request, rows=rows, tier=tier)
 
@@ -92,7 +97,9 @@ def lead_detail(company_id: int, request: Request, db: Session = Depends(get_db)
         return PlainTextResponse("Not found", status_code=404)
     sc = company.scores[-1] if company.scores else None
     draft = company.drafts[0] if company.drafts else None
-    return render("lead_detail.html", request=request, company=company, score=sc, draft=draft)
+    pub = _public_company(company)
+    draft_pub = pub.drafts[0] if pub.drafts else None
+    return render("lead_detail.html", request=request, company=pub, score=sc, draft=draft_pub)
 
 
 @router.post("/leads/{company_id}/draft")

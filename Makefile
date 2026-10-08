@@ -28,3 +28,8 @@ screenshots:
 
 fetch-cslb:
 	python3 scripts/fetch_cslb_data.py
+
+demo-snapshot:
+	PUBLIC_DEMO=1 DATABASE_URL=sqlite:///$(CURDIR)/demo_snapshot/lead_engine.db \
+		MOCK_SITES_BASE_URL=http://127.0.0.1:8081 \
+		python3 -m app.cli demo
