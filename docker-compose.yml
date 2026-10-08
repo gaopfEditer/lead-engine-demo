@@ -1,0 +1,32 @@
+services:
+  mocksites:
+    build:
+      context: .
+      dockerfile: Dockerfile.mocksites
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./mocksites:/srv/mocksites:ro
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////data/lead_engine.db
+      MOCK_SITES_BASE_URL: http://mocksites:8081
+      CSLB_SAMPLE_PATH: /app/data/cslb_sample.csv
+      ICP_CONFIG_PATH: /app/presets/ca_contractors.yaml
+      LLM_API_KEY: ""
+    volumes:
+      - app_data:/data
+      - ./data:/app/data:ro
+      - ./presets:/app/presets:ro
+      - ./mocksites:/app/mocksites:ro
+    depends_on:
+      - mocksites
+
+volumes:
+  app_data:

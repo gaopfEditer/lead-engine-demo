@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Data Quality{% endblock %}
+{% block content %}
+<h1>Data Quality</h1>
+<div class="card">
+  <p>CSLB sample source: <a href="{{ meta.source_url }}">{{ meta.source_url }}</a> · downloaded {{ meta.download_date }}</p>
+  {% if meta.synthetic %}<p class="banner">Synthetic sample</p>{% endif %}
+</div>
+<div class="card">
+  <h3>Coverage</h3>
+  <ul>
+    <li>Companies: {{ report.companies_total }}</li>
+    <li>Merge clusters: {{ merge_clusters }}</li>
+    <li>With website: {{ report.with_website }}</li>
+    <li>Owner verified: {{ report.owner_verified }}</li>
+    <li>Exportable leads: {{ report.exportable_leads }}</li>
+  </ul>
+</div>
+<div class="card">
+  <h3>Verification distribution</h3>
+  <ul>
+  {% for status, count in report.verification_status.items() %}
+    <li>{{ status }}: {{ count }}</li>
+  {% endfor %}
+  </ul>
+  <p class="muted">Guessed emails: {{ report.guessed_emails }} · Role emails: {{ report.role_emails }}</p>
+</div>
+<p>
+  <a href="/export/sample.csv">Download 50-row sample CSV</a> ·
+  <a href="/export/sample-report.json">Quality report JSON</a>
+</p>
+{% endblock %}

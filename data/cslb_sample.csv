@@ -1,0 +1,361 @@
+record_type,LicenseNumber,BusinessType,BusinessName,Address,City,State,ZIP Code,County,PhoneNumber,IssueDate,ExpirationDate,Classification(s),Status,PersonnelName,PersonnelTitle
+license,22726,Corporation,RANSOME COMPANY,1933 WILLIAMS STREET,SAN LEANDRO,CA,94577,Alameda,(510) 686 9900,07/01/1932,10/31/2027, A | C10, CLEAR,,
+license,1102162,Limited Liability,TORRES ELECTRIC SERVICES LLC,1401 21ST ST STE R,SACRAMENTO,CA,95811,Sacramento,(510) 326 0413,03/07/2023,03/31/2027, C10, CLEAR,,
+license,831991,Sole Owner,KEENE MICHAEL WAYNE,3005 BADGER DR,PLEASANTON,CA,94588,Alameda,(510) 378 2118,02/09/2004,02/29/2028, C10, CLEAR,,
+license,836670,Corporation,A C S CONTROLS CORPORATION,4704 ROSEVILLE RD STE 101,NORTH HIGHLANDS,CA,95660,Sacramento,(916) 640 8800,04/22/2004,01/31/2027, C10 | C20, CLEAR,,
+license,859771,Sole Owner,LOPEZ ELECTRIC,3014 NICOL AVENUE,OAKLAND,CA,94602,Alameda,(510) 830 6119,05/31/2005,05/31/2027, C10, CLEAR,,
+license,1064040,Corporation,JAYCON,9255 SURVEY RD #8,ELK GROVE,CA,95624,Sacramento,(209) 406 8353,03/06/2020,03/31/2028, B | C-5 | C10, CLEAR,,
+license,1112407,Corporation,SACRAMENTO EDGE CONSTRUCTION INC,3135 VIA GRANDE,SACRAMENTO,CA,95825,Sacramento,(916) 842 8109,11/07/2023,11/30/2027, B | C10, CLEAR,,
+license,1112910,Sole Owner,BAY DESIGN ELECTRIC,2218 GROVE WAY,CASTRO VALLEY,CA,94546,Alameda,(510) 875 9324,11/17/2023,11/30/2027, C10, CLEAR,,
+license,180154,Corporation,H & D ELECTRIC,P O BOX 41360,SACRAMENTO,CA,95841,Sacramento,(916) 332 0794,12/24/1958,10/31/2028, C10, CLEAR,,
+license,1113568,Limited Liability,EDISON ELECTRIC GROUP LLC,22962 CLAWITTER ROAD UNIT 11,HAYWARD,CA,94545,Alameda,(510) 329 1825,12/06/2023,12/31/2027, C10, CLEAR,,
+license,951768,Corporation,ABRAM'S ELECTRIC INC,3400 MARGARITA AVE,OAKLAND,CA,94621,Alameda,(510) 205 3623,08/31/2010,08/31/2028, C10, CLEAR,,
+license,833167,Limited Liability,ELECTRICAL TESTING COMPANY THE LLC,28437 SATELLITE STREET,HAYWARD,CA,94545,Alameda,(510) 876 8156,02/27/2004,09/30/2028, C10, CLEAR,,
+license,930514,Limited Liability,CLC ELECTRICAL SOLUTIONS LLC,7645 CHESTER DAWSON WAY,ELK GROVE,CA,95757,Sacramento,(916) 753 9023,03/28/2009,06/30/2027, C10, CLEAR,,
+license,1113310,Sole Owner,AC ELECTRIC,7557 SUN WILLOW LN,SACRAMENTO,CA,95823,Sacramento,(916) 743 7648,11/30/2023,11/30/2027, C10, CLEAR,,
+license,756751,Sole Owner,SC ELECTRIC,1957 MARS RD,LIVERMORE,CA,94550,Alameda,(707) 477 7178,12/02/1998,04/30/2028, C10, CLEAR,,
+license,246673,Corporation,WES-CO INDUSTRIES,1981 ADAMS AVENUE,SAN LEANDRO,CA,94577,Alameda,(510) 534 3320,02/14/1967,01/31/2028, A | B | C10 | C20 | C43, CLEAR,,
+license,1025671,Corporation,FRISCH ELECTRIC,13405 FOLSOM BLVD UNIT 600,FOLSOM,CA,95630,Sacramento,(916) 353 1025,04/11/2017,04/30/2027, C10, CLEAR,,
+license,996746,Sole Owner,CHEN PRO ELECTRIC,3913 73RD ST,SACRAMENTO,CA,95820,Sacramento,(916) 800 2060,09/15/2014,09/30/2028, C10, CLEAR,,
+license,955361,Sole Owner,LIGHT HOUSE ELECTRIC,5840 CALVINE ROAD,SACRAMENTO,CA,95823,Sacramento,(916) 992 3614,12/07/2010,08/31/2027, C10, CLEAR,,
+license,947628,Corporation,GOT ELECTRICAL INC,4395 CAMBRIA STREET,FREMONT,CA,94538,Alameda,(510) 894 1050,05/20/2010,05/31/2028, C10, CLEAR,,
+license,261291,Sole Owner,PARAGON ELECTRIC,32457 PALOMARES RD,CASTRO VALLEY,CA,94552,Alameda,(510) 881 5345,01/22/1970,03/31/2028, B | C10, CLEAR,,
+license,264444,Sole Owner,EARLE'S LO-COST ELECTRIC CO,3024 MAXWELL AVE,OAKLAND,CA,94619,Alameda,(510) 436 4787,07/22/1970,12/31/2026, C10, CLEAR,,
+license,1112094,Sole Owner,CONNECTED ELECTRICIAN,7630 HILLSIDE ST,OAKLAND,CA,94605,Alameda,(510) 812 9073,10/31/2023,10/31/2027, C10, CLEAR,,
+license,959863,Sole Owner,GREEN ENERGY ELECTRIC,5012 HARI GOPAL WAY,SACRAMENTO,CA,95823,Sacramento,(916) 670 2805,04/12/2011,04/30/2027, C10, CLEAR,,
+license,1114649,Corporation,I N S ELECTRIC,6906 STAMPER WAY,SACRAMENTO,CA,95828,Sacramento,(916) 226 7911,01/05/2024,01/31/2028, C10, CLEAR,,
+license,951005,Sole Owner,GRIFFIN ELECTRIC,6321 MORAGA DR,CARMICHAEL,CA,95608,Sacramento,(916) 281 1561,08/10/2010,08/31/2028, C10, CLEAR,,
+license,1047168,Corporation,BILT RITE INC,PO BOX 223,NEWARK,CA,94560,Alameda,(510) 894 2798,11/26/2018,11/30/2026, B | C10 | C27, CLEAR,,
+license,1041565,Corporation,SOLUTION ONE INC,PO BOX 580728,ELK GROVE,CA,95758,Sacramento,(916) 970 0199,07/05/2018,02/28/2027, C10, CLEAR,,
+license,1034703,Sole Owner,ACE ELECTRIC,9423 B STREET,OAKLAND,CA,94603,Alameda,(510) 368 4047,01/09/2018,01/31/2028, C10, CLEAR,,
+license,841277,Sole Owner,DUARTE JIMMY CARL ELECTRIC,PO BOX 2053,SAN LEANDRO,CA,94577,Alameda,(415) 716 4776,06/22/2004,06/30/2028, C10, CLEAR,,
+license,759370,Sole Owner,HILLCOM AND ELECTRIC,8326 DORRIGO CT,FAIR OAKS,CA,95628,Sacramento,(408) 592 1150,02/23/1999,02/28/2027, C10, CLEAR,,
+license,785247,Partnership,DIGITAL DESIGN COMMUNICATIONS,8128 CAPWELL DRIVE,OAKLAND,CA,94621,Alameda,(510) 632 0650,10/02/2000,10/31/2028, C10, CLEAR,,
+license,710192,Sole Owner,SAFE ENTERPRISE,1827 PACIFIC AVENUE,ALAMEDA,CA,94501,Alameda,(510) 219 8000,07/25/1995,07/31/2027, C10, CLEAR,,
+license,303019,Corporation,PACIFIC NEON,2939 ACADEMY WAY,SACRAMENTO,CA,95815,Sacramento,(916) 927 0527,02/21/1975,07/31/2027, C10 | D42, CLEAR,,
+license,895538,Sole Owner,NELSON ELECTRIC,12434 PEAR LANE,WILTON,CA,95693,Sacramento,(916) 212 6468,04/28/2007,10/31/2026, C10, CLEAR,,
+license,846584,Sole Owner,C R S ELECTRIC,"611 ADAMS,APT 8",ALBANY,CA,94706,Alameda,(510) 772 2334,09/14/2004,06/30/2027, C10, CLEAR,,
+license,1052300,Sole Owner,SOLEIL ELECTRIC,5249 KANKAKEE DR,SACRAMENTO,CA,95835,Sacramento,(916) 468 8135,04/11/2019,07/31/2027, C10, CLEAR,,
+license,1088756,Corporation,BUILDER CONSTRUCTION,3575 ARDEN WAY SUITE 1099,SACRAMENTO,CA,95864,Sacramento,(209) 665 5973,03/17/2022,03/31/2028, B | C10 | D41, CLEAR,,
+license,919198,Partnership,MAC INDUSTRIES,11870 RISING RD,WILTON,CA,95693,Sacramento,(916) 869 1019,07/16/2008,07/31/2028, A | C10 | C12, CLEAR,,
+license,1072584,Limited Liability,BLUE DOOR ELECTRIC LLC,3113 LINDEN STREET,OAKLAND,CA,94608,Alameda,(925) 768 3064,01/07/2021,01/31/2027, C10, CLEAR,,
+license,390360,Sole Owner,JONES JEFFREY BYRON,3974 WATERHOUSE RD,OAKLAND,CA,94602,Alameda,(510) 530 9639,05/14/1980,05/31/2028, C10, CLEAR,,
+license,903561,Corporation,CHOICE ELECTRICAL INC,2050 HORSESHOE GLEN CIRCLE,FOLSOM,CA,95630,Sacramento,(916) 817 0608,09/18/2007,09/30/2027, C10, CLEAR,,
+license,1108207,Corporation,DESTINY ELECTRIC,49 BRENTFORD CIRCLE,SACRAMENTO,CA,95823,Sacramento,(916) 680 2947,08/07/2023,09/30/2028, C10, CLEAR,,
+license,1105989,Sole Owner,BELKNAP ELECTRIC,2701 NORTHVIEW DR,SACRAMENTO,CA,95833,Sacramento,(916) 817 9888,06/15/2023,06/30/2027, C10, CLEAR,,
+license,770288,Corporation,TERRALINK COMMUNICATIONS INC,8139 SUNSET AVE 190,FAIR OAKS,CA,95628,Sacramento,(916) 952 2242,10/15/1999,10/31/2027, B | C10, CLEAR,,
+license,1107591,Corporation,U G BAY ELECTRIC INC,2550 DAMUTH ST APT #3,OAKLAND,CA,94602,Alameda,(213) 804 0182,07/24/2023,07/31/2027, C10, CLEAR,,
+license,407354,Sole Owner,GRIFFIN ELECTRIC,P O BOX 418442,SACRAMENTO,CA,95841,Sacramento,(916) 971 0532,06/18/1981,01/31/2028, C10, CLEAR,,
+license,974365,Corporation,CAMPS ELECTRICAL SERVICES INC,9705 ELK TREE WAY,ELK GROVE,CA,95624,Sacramento,(916) 583 0344,06/27/2012,03/31/2027, C10, CLEAR,,
+license,1021979,Sole Owner,AREVALO DOUGLAS ELECTRIC,10840 SCOTSMAN WAY,RANCHO CORDOVA,CA,95670,Sacramento,(916) 765 7796,12/21/2016,12/31/2026, C10, CLEAR,,
+license,1114726,Sole Owner,LIGHT WAY ELECTRIC,P O BOX 126,SACRAMENTO,CA,95812,Sacramento,(279) 901 2981,01/09/2024,01/31/2028, C10, CLEAR,,
+license,974064,Limited Liability,STAR ELECTRICALS LLC,33635 7TH ST,UNION CITY,CA,94587,Alameda,(510) 557 8487,06/18/2012,11/30/2026, C10, CLEAR,,
+license,831134,Corporation,CLARION ELECTRIC INCORPORATED,4324 ORANGE GROVE AVE,SACRAMENTO,CA,95841,Sacramento,(916) 481 3297,01/20/2004,01/31/2028, C10, CLEAR,,
+license,1037325,Corporation,GRANDVIEW BUILDER INC,27370 GRANDVIEW AVENUE,HAYWARD,CA,94542,Alameda,(510) 200 6730,03/27/2018,03/31/2028, B | C10 | C36, CLEAR,,
+license,1006233,Corporation,MOUNTAIN ENGINEERING,950 IRON POINT RD STE 250,FOLSOM,CA,95630,Sacramento,(866) 464 6351,08/07/2015,08/31/2027, A | C10 | D49 | HAZ, CLEAR,,
+license,951365,Corporation,R C GREEN CONSTRUCTION,8240 ALDEA STREET,DUBLIN,CA,94568,Alameda,(925) 381 3979,08/18/2010,11/30/2027, B | C10, CLEAR,,
+license,904919,Sole Owner,V C ELECTRIC,7261 HANSEN DRIVE,DUBLIN,CA,94568,Alameda,(925) 699 0355,10/15/2007,10/31/2027, C10, CLEAR,,
+license,875122,Corporation,DIABLO ELECTRIC INC,"5673 W LAS POSITAS BLVD,STE 216",PLEASANTON,CA,94588,Alameda,(925) 463 3000,03/28/2006,03/31/2028, C10, CLEAR,,
+license,842797,Corporation,STINGRAY SECURITY SYSTEMS INC,2575 LIVE OAK TERRACE,HAYWARD,CA,94541,Alameda,(510) 352 9878,07/15/2004,07/31/2028, C10, CLEAR,,
+license,880213,Sole Owner,ALL MIGHTY SECURITY & SOUND,7404 RIO MONDEGO DRIVE,SACRAMENTO,CA,95831,Sacramento,(916) 207 0024,06/29/2006,06/30/2028, C10, CLEAR,,
+license,1060365,Corporation,TEICHERT LINE SERVICES,P O BOX 15930,SACRAMENTO,CA,95852,Sacramento,(916) 484 3347,11/15/2019,11/30/2027, A | B | C10 | D31 | HAZ, CLEAR,,
+license,745897,Sole Owner,RUSSELL L NICHOLAS,11135 SIMMERHORN RD,GALT,CA,95632,Sacramento,(209) 649 9987,02/13/1998,02/29/2028, C10, CLEAR,,
+license,1089034,Corporation,JHP ELECTRIC INC,9110 UNION PARK WAY STE 109,ELK GROVE,CA,95624,Sacramento,(916) 829 5378,03/24/2022,03/31/2028, B | C10, CLEAR,,
+license,1067098,Sole Owner,M Q ELECTRICAL,3215 MADISON STREET,ALAMEDA,CA,94501,Alameda,(510) 776 8784,07/20/2020,07/31/2028, C10, CLEAR,,
+license,348215,Corporation,DESIGN ELECTRIC,39 WYOMING STREET,PLEASANTON,CA,94566,Alameda,(925) 846 0650,12/05/1977,11/30/2027, C10, CLEAR,,
+license,1091416,Corporation,AMECY AS INC,44865 FREMONT BLVD UNIT 8,FREMONT,CA,94538,Alameda,(510) 552 5115,05/11/2022,05/31/2028, C10 | C45, CLEAR,,
+license,1115031,Corporation,HOERZ ELECTRIC INC,39885 WYATT LANE,FREMONT,CA,94538,Alameda,(510) 557 9307,01/16/2024,11/30/2027, C10, CLEAR,,
+license,1063959,Corporation,LGM ELECTRICAL INC,26132 JANE AVE,HAYWARD,CA,94544,Alameda,(510) 993 6980,03/05/2020,03/31/2028, C10, CLEAR,,
+license,893100,Corporation,EFFICIENT LIGHTING DESIGNS INC A CALIFORNIA CORPORATION,101 PARKSHORE DRIVE STE 100,FOLSOM,CA,95630,Sacramento,(916) 932 7166,03/22/2007,03/31/2027, C10, CLEAR,,
+license,362691,Sole Owner,R S CONSTRUCTION CO,2463 HIBISCUS DRIVE,HAYWARD,CA,94545,Alameda,(510) 785 9099,08/08/1978,08/31/2028, B | C10 | C36, CLEAR,,
+license,944497,Sole Owner,ACCEL ELECTRIC,P O BOX 21093,CASTRO VALLEY,CA,94546,Alameda,(510) 377 8157,03/17/2010,03/31/2028, C10, CLEAR,,
+license,1033745,Sole Owner,UNITED ELECTRIC,4540 FLORIN ROAD STE E375,SACRAMENTO,CA,95823,Sacramento,(916) 970 7778,12/07/2017,12/31/2027, C10, CLEAR,,
+license,365598,Corporation,EFFICIENT ENERGY SOLUTIONS INC,819 STRIKER AVE 6,SACRAMENTO,CA,95834,Sacramento,(916) 804 2243,11/01/1978,01/31/2028, B | C-2 | C10 | C17 | C20 | C36 | C54 | D41 | D65, CLEAR,,
+license,889509,Sole Owner,AX ELECTRIC,6812 RIO TEJO WAY,ELK GROVE,CA,95757,Sacramento,(916) 267 3900,01/13/2007,01/31/2027, C10, CLEAR,,
+license,514919,Sole Owner,WILLIAMS ELECTRIC,6114 LA SALLE AVE #452,OAKLAND,CA,94611,Alameda,(510) 339 5601,07/23/1987,07/31/2027, C10, CLEAR,,
+license,884247,Corporation,DANEL INC,2990 TEAGARDEN STREET,SAN LEANDRO,CA,94577,Alameda,(510) 282 8820,09/15/2006,09/30/2028, A | B | C-7 | C10 | C15, CLEAR,,
+license,1092438,Corporation,S W 2 ELECTRIC,8386 APOTHIC WAY,SACRAMENTO,CA,95829,Sacramento,(916) 532 7446,06/07/2022,06/30/2028, C10, CLEAR,,
+license,891317,Sole Owner,D K A ELECTRIC,306 A HANOVER AVENUE,OAKLAND,CA,94606,Alameda,(415) 318 9079,02/21/2007,02/28/2027, C10, CLEAR,,
+license,773533,Limited Liability,SJN ELECTRIC LLC,512 DOLORES AVE,SAN LEANDRO,CA,94577,Alameda,(510) 614 2054,01/12/2000,11/30/2027, C10, CLEAR,,
+license,1059861,Corporation,DREAM BUILDER CONSTRUCTION + DEVELOPMENT,5421 CRYSTAL HILL WAY,SACRAMENTO,CA,95823,Sacramento,(916) 588 8394,11/01/2019,11/30/2027, B | C10, CLEAR,,
+license,842301,Sole Owner,MACIEL ELECTRIC,31447 CARROL AVE,HAYWARD,CA,94544,Alameda,(408) 228 7651,07/08/2004,07/31/2028, C10, CLEAR,,
+license,788566,Sole Owner,JOHN KEVIN MEDEIROS,1272 PACIFIC AVE,SAN LEANDRO,CA,94577,Alameda,(510) 331 3498,12/11/2000,12/31/2026, C10, CLEAR,,
+license,1114917,Sole Owner,TELLEZ ELITE ELECTRICAL SERVICES,1112 MEADOWVIEW DR,GALT,CA,95632,Sacramento,(209) 841 9230,01/11/2024,01/31/2028, C10, CLEAR,,
+license,890005,Corporation,ULTRACAT INCORPORATED,4125 BOONE LANE,SACRAMENTO,CA,95821,Sacramento,(916) 802 3328,01/23/2007,07/31/2027, C10, CLEAR,,
+license,379245,Corporation,BOSLEY ELECTRIC CONTRACTING COMPANY,935 ARDEN WAY,SACRAMENTO,CA,95815,Sacramento,(916) 568 5180,08/03/1979,12/31/2027, B | C10 | C36, CLEAR,,
+license,988377,Sole Owner,J K ELECTRIC,8260 CEDAR CREST WAY,SACRAMENTO,CA,95826,Sacramento,(916) 208 3647,11/09/2013,11/30/2027, C10, CLEAR,,
+license,968893,Sole Owner,POUR ELECTRIC,2996 GREAT EGRET WAY,SACRAMENTO,CA,95834,Sacramento,(916) 203 2809,12/30/2011,12/31/2027, C10, CLEAR,,
+license,986303,Corporation,SUPER BROTHERS PLUMBING HEATING & AIR,7475 KANAI AVE,CITRUS HEIGHTS,CA,95621,Sacramento,(916) 588 7767,08/24/2013,12/31/2027, C10 | C20 | C36, CLEAR,,
+license,950015,Sole Owner,WEN LEI CONSTRUCTION,432 HONOLULU CIR,UNION CITY,CA,94587,Alameda,(408) 509 9700,07/16/2010,08/31/2028, B | C10, CLEAR,,
+license,961686,Sole Owner,CLARKE DAVID,506 CANAL ST,FOLSOM,CA,95630,Sacramento,(916) 337 7427,06/02/2011,06/30/2027, C-7 | C10, CLEAR,,
+license,831333,Corporation,HUFT HOME SERVICES,10103 IRON ROCK WAY,ELK GROVE,CA,95624,Sacramento,(916) 686 2626,01/23/2004,01/31/2027, B | C10 | C20 | C36, CLEAR,,
+license,757819,Sole Owner,BENDEL ELECTRIC,8152 DRAIS WAY,ELK GROVE,CA,95624,Sacramento,(916) 712 1844,01/07/1999,05/31/2027, A | C10, CLEAR,,
+license,856270,Sole Owner,KY'S HOME IMPROVEMENT COMPANY,3722 52RD AVE,SACRAMENTO,CA,95823,Sacramento,(916) 606 6652,03/23/2005,03/31/2027, B | C10 | C36, CLEAR,,
+license,397149,Sole Owner,SUTORIK & COMPANY,48 EUCALYPTUS ROAD,BERKELEY,CA,947052802,Alameda,(510) 655 3677,12/29/1980,12/31/2026, C10, CLEAR,,
+license,1104124,Sole Owner,1P ELECTRIC,27565 CALAROGA AVE,HAYWARD,CA,94545,Alameda,(510) 826 6905,05/01/2023,05/31/2027, C10, CLEAR,,
+license,398874,Corporation,ALL-GUARD ALARM SYSTEMS INC,1306 STEALTH STREET,LIVERMORE,CA,94551,Alameda,(800) 255 4273,02/10/1981,02/28/2027, C-7 | C10, CLEAR,,
+license,1109509,Corporation,STALWART ELECTRIC INC,4712 SOLANO WAY,FAIR OAKS,CA,95628,Sacramento,(916) 860 4198,08/31/2023,08/31/2027, C10, CLEAR,,
+license,987428,Sole Owner,T D CONSTRUCTION,3170 FIR AVE,ALAMEDA,CA,94502,Alameda,(510) 332 4621,10/03/2013,10/31/2027, B | C10 | C36, CLEAR,,
+license,961634,Corporation,A W CONSTRUCTION INC,4203 MACARTHUR BLVD,OAKLAND,CA,94619,Alameda,(510) 381 9963,06/01/2011,06/30/2027, B | C10 | C36, CLEAR,,
+license,1073972,Sole Owner,GOOD VIBE ELECTRIC,9513 NUT TREE CT,ELK GROVE,CA,95624,Sacramento,(916) 539 8386,03/12/2021,03/31/2027, C10, CLEAR,,
+license,1105138,Corporation,PREMIER ELECTRICAL COMPANY,3291 RAMOS CIRCLE,SACRAMENTO,CA,95827,Sacramento,(916) 735 6730,05/23/2023,05/31/2027, C10, CLEAR,,
+license,584763,Sole Owner,COX GREG ELECTRICAL ENTERPRISES,8916 SHELDON CREEK DRIVE,ELK GROVE,CA,95624,Sacramento,(916) 439 6132,01/06/1990,11/30/2027, C10, CLEAR,,
+license,1104325,Corporation,T&M CONSTRUCTION & ELECTRICAL,32453 JEAN DR,UNION CITY,CA,94587,Alameda,(510) 456 8166,05/04/2023,05/31/2027, B | C10, CLEAR,,
+license,1095168,Sole Owner,SINGH PRANEEL,25140 CALAROGA AVE,HAYWARD,CA,94545,Alameda,(510) 690 4536,08/09/2022,08/31/2028, C10, CLEAR,,
+license,408126,Corporation,SACRAMENTO CONTROL SYSTEMS INC,11249 SUNCO DRIVE #3,RANCHO CORDOVA,CA,95746,Sacramento,(916) 638 0788,07/03/1981,07/31/2027, C-7 | C10, CLEAR,,
+license,412702,Sole Owner,E S C O ELECTRIC,2532 SANTA CLARA AVENUE #470,ALAMEDA,CA,94501,Alameda,(925) 570 1082,10/19/1981,06/30/2027, C10, CLEAR,,
+license,972780,Sole Owner,GIANT PROPERTY SERVICE,340 BOWLING GREEN ST,SAN LEANDRO,CA,94577,Alameda,(510) 517 0983,05/10/2012,05/31/2028, B | C10, CLEAR,,
+license,414305,Corporation,STACY AND WITBECK INC,2800 HARBOR BAY PARKWAY,ALAMEDA,CA,94502,Alameda,(510) 748 1870,11/24/1981,11/30/2027, A | C10, CLEAR,,
+license,660566,Corporation,ANDRADE ELECTRIC INC,3245A FITZGERALD ROAD,RANCHO CORDOVA,CA,95742,Sacramento,(916) 635 4082,12/08/1992,12/31/2026, C10, CLEAR,,
+license,415608,Sole Owner,CHAPARRAL CONTROLS,6305 LAURA LANE,PLEASANTON,CA,94566,Alameda,(510) 220 2370,12/14/1981,10/31/2026, C-7 | C10, CLEAR,,
+license,1069334,Corporation,LEGACY VENTURES CONSTRUCTION,11994 PEACH LANE,WILTON,CA,95693,Sacramento,(541) 999 7566,09/30/2020,09/30/2028, A | B | C10 | C21 | HAZ, CLEAR,,
+license,420755,Sole Owner,ARTSS SECURITY SYSTEMS CONTRACTING,6511 ELVAS AVENUE,SACRAMENTO,CA,95819,Sacramento,(916) 456 8425,04/01/1982,04/30/2028, C-7 | C10, CLEAR,,
+license,728215,Corporation,ROBERTS ELECTRIC CO INC,1010 CALCOT PL STE B,OAKLAND,CA,94606,Alameda,(510) 834 6161,10/02/1996,10/31/2026, C10, CLEAR,,
+license,987448,Corporation,FUTURECORP DEVELOPMENT AND CONSTRUCTION INC,1153 MCKINLEY AVE UNIT #4,OAKLAND,CA,94610,Alameda,(510) 882 9974,10/03/2013,07/31/2027, A | B | C10, CLEAR,,
+license,917560,Corporation,SUN'S FREE,628 WESTLINE DRIVE,ALAMEDA,CA,94501,Alameda,(510) 872 3558,06/13/2008,06/30/2028, C10, CLEAR,,
+license,973647,Sole Owner,ED'S ELECTRIC,3852 JERSEY ROAD,FREMONT,CA,94538,Alameda,(510) 697 9401,06/04/2012,06/30/2028, C10, CLEAR,,
+license,902465,Corporation,NATIONAL GARAGE DOOR COMPANY,3185 FTIZGERALD RD,RANCHO CORDOVA,CA,95742,Sacramento,(916) 638 4554,08/22/2007,08/31/2027, B | C10 | D28, CLEAR,,
+license,952883,Corporation,ANVIL BUILDERS INC,1550 PARK AVENUE,EMERYVILLE,CA,94608,Alameda,(415) 285 5000,09/29/2010,09/30/2028, A | ASB | B | C10 | C27 | C31 | C49 | D49 | D63 | HAZ, CLEAR,,
+license,1006360,Corporation,ELITE LIGHTING SERVICES INC,P O BOX 310,RANCHO CORDOVA,CA,95741,Sacramento,(916) 597 5186,08/13/2015,08/31/2027, C10, CLEAR,,
+license,864102,Sole Owner,K D M CONSTRUCTION,4119 SHARAB CT,PLEASANTON,CA,94566,Alameda,(925) 640 8844,09/16/2005,09/30/2027, B | C10, CLEAR,,
+license,786781,Corporation,DAN ELECTRIC,2990 TEAGARDEN STREET,SAN LEANDRO,CA,94577,Alameda,(510) 351 7100,10/31/2000,12/31/2027, A | B | C-7 | C10 | C15, CLEAR,,
+personnel,22726,,,,,,,,,,, ,, SCHELL                             JAKOB          CLARK, Chief Executive Officer/President
+personnel,22726,,,,,,,,,,, ,, KONG                               KA YAN| KONG                               KA             YAN, Officer
+personnel,22726,,,,,,,,,,, | A| ,, SCOTT                              PETER          BEAUCHAMP, Officer| Responsible Managing Officer/Chief Executive Officer/President| Officer
+personnel,22726,,,,,,,,,,, C10| HIC,, GONZALES                           GARY           MORGAN, Responsible Managing Employee| Responsible Managing Employee
+personnel,22726,,,,,,,,,,, ,, RAAKA                              BARBARA        A, Officer
+personnel,22726,,,,,,,,,,, ,, MARTINEZ                           AMBER          A, Officer
+personnel,22726,,,,,,,,,,, | A,, SMITH                              SYDNEY         KINNEAR, Chief Executive Officer/President| Responsible Managing Officer
+personnel,22726,,,,,,,,,,, ,, ZIMMERMAN                          WILLIAM        P           JR, Officer
+personnel,22726,,,,,,,,,,, ,, SCOTT                              THOMAS         C, Officer
+personnel,22726,,,,,,,,,,, A,, HANEY                              DONALD         HALE, Responsible Managing Officer
+personnel,22726,,,,,,,,,,, ,, CERDAY                             RAY, Officer
+personnel,22726,,,,,,,,,,, | ,, WEBSTER                            EDWARD         KENNETH, Officer| Chief Executive Officer/President
+personnel,22726,,,,,,,,,,, | ,, OBERTO                             MYLES          JOHN, Officer| Deceased
+personnel,22726,,,,,,,,,,, C10,, FERDIG                             SHAWN          STEVEN, Responsible Managing Employee
+personnel,22726,,,,,,,,,,, | C10| A,, RAAKA                              GEOFFREY       BRIAN, Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,22726,,,,,,,,,,, A,, KNUTH                              PETER          WINCHESTER, Responsible Managing Officer
+personnel,22726,,,,,,,,,,, ,, AVILA-JIMENEZ                      ROSALIE, Officer
+personnel,180154,,,,,,,,,,, C10| C10| HIC,, COOPER                             MARK           EDWIN, Responsible Managing Employee| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,180154,,,,,,,,,,, C10,, HEADLEY                            JACK           MELVIN, Responsible Managing Officer/Chief Executive Officer/President
+personnel,180154,,,,,,,,,,, ,, O'LAUGHLIN                         TIMOTHY        EDWARD, Officer
+personnel,180154,,,,,,,,,,, ,, BOGH                               STACY          R, Officer
+personnel,180154,,,,,,,,,,, ,, HEADLEY                            JACK           M, Officer
+personnel,180154,,,,,,,,,,, ,, DAY                                SIBYL          LYNN, Officer
+personnel,180154,,,,,,,,,,, C10,, DAY                                HOWARD         DUANE, Responsible Managing Officer/Chief Executive Officer/President
+personnel,180154,,,,,,,,,,, ,, COOPER                             RICHARD        SCOTT, Officer
+personnel,180154,,,,,,,,,,, ,, GUTTMAN                            ILEEN          HELEN, Officer
+personnel,180154,,,,,,,,,,, ,, STRAND                             KRISTIN        SUE, Officer
+personnel,246673,,,,,,,,,,, C43,, ZAPPETTINI                         DONALD         M, Responsible Managing Officer/Chief Executive Officer/President
+personnel,246673,,,,,,,,,,, | C43,, DITLEFSEN                          GARY           EDWARD, Responsible Managing Employee| Responsible Managing Employee
+personnel,246673,,,,,,,,,,, ,, ZAPPETTINI                         JOAN           D, Officer
+personnel,246673,,,,,,,,,,, A| C43| C20| C43| HIC| C10| B| C43| A| C10| B,, ZIVANOVIC                          ZIVORAD, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,261291,,,,,,,,,,, C10| B,, ABREU                              MICHAEL        WILLIAM, Sole Owner| Sole Owner
+personnel,264444,,,,,,,,,,, C10| HIC,, CHAPMAN                            EARLE          LAURENCE, Sole Owner| Sole Owner
+personnel,303019,,,,,,,,,,, B,, ZAKSKORN                           CHARLES, Responsible Managing Employee
+personnel,303019,,,,,,,,,,, ,, LAMBERT                            GEORGE         FRANCIS, Officer
+personnel,303019,,,,,,,,,,, C10| ,, LAMBERT                            WARREN         SULLIVAN, Responsible Managing Officer/Chief Executive Officer/President| Deceased
+personnel,303019,,,,,,,,,,, | ,, LAMBERT                            OLETA          CHRISTINE, Officer| Deceased
+personnel,303019,,,,,,,,,,, | C10| D42,, DRURY                              HAROLD         JOHN        JR, Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,348215,,,,,,,,,,, ,, LEON                               VIVIAN         MARIE, Officer
+personnel,348215,,,,,,,,,,, ,, SIMMONS                            ANNETTE        YVONNE, Officer
+personnel,348215,,,,,,,,,,, ,, JONES                              GARY           ROBERT, Officer
+personnel,348215,,,,,,,,,,, ,, DEERING                            BRIAN          PATRICK, Officer
+personnel,348215,,,,,,,,,,, ,, MILLER                             DIANE          G, Officer
+personnel,348215,,,,,,,,,,, ,, MILLER                             MICHAEL        TIMOTHY, Officer
+personnel,348215,,,,,,,,,,, ,, COOK                               WILLIAM        ROBERT, Officer
+personnel,348215,,,,,,,,,,, ,, BARBATO                            JOSEPH         L, Officer
+personnel,348215,,,,,,,,,,, C10| C10| HIC,, MILLER                             KENNETH        RAY, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer
+personnel,348215,,,,,,,,,,, | C10| HIC,, NOWAK                              PETER          MICHAEL, Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,362691,,,,,,,,,,, B| C36| HIC| C10,, SILVA                              RONALD         GARY, Sole Owner| Sole Owner| Sole Owner| Sole Owner
+personnel,365598,,,,,,,,,,, ,, LIEDLOFF                           DAVID          ANDREW, Officer
+personnel,365598,,,,,,,,,,, ,, PITTMAN                            WILLIAM        EARL        IV, Chief Executive Officer/President
+personnel,365598,,,,,,,,,,, ,, PITTMAN                            WILLIAM        EARL        III, Officer
+personnel,365598,,,,,,,,,,, ,, KWAN                               TIM            K, Chief Executive Officer/President
+personnel,365598,,,,,,,,,,, ,, DURAN                              JOYCE          AUDREY, Officer
+personnel,365598,,,,,,,,,,, ,, WIMBER                             JEFFREY        TYLER, Chief Executive Officer/President
+personnel,365598,,,,,,,,,,, C17| C-2| C39| D65| B| C17| C20| C10| C54| D41| C36| C17| C-2| C39| D65| B| C20| HIC| C10| C54| D41| C36,, HILL                               WILLIAM        NICHOLAS, Sole Owner| Sole Owner| Sole Owner| Sole Owner| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Sole Owner| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner
+personnel,379245,,,,,,,,,,, B| C44| C10| C36| HIC| B| C10| C36,, BOSLEY                             JOHN           JEFFERY, Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,379245,,,,,,,,,,, ,, ROBINSON                           MICHAEL        WAYNE, Officer
+personnel,379245,,,,,,,,,,, ,, BOSLEY                             NANCY          ELLEN, Officer
+personnel,379245,,,,,,,,,,, | | C10| B,, BOSLEY                             TIMOTHY        ROSS, Officer| Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,390360,,,,,,,,,,, C10| HIC,, JONES                              JEFFREY        BYRON, Sole Owner| Sole Owner
+personnel,397149,,,,,,,,,,, C10| HIC,, SUTORIK                            GEORGE         EDWARD, Sole Owner| Sole Owner
+personnel,398874,,,,,,,,,,, | ,, COOKE                              JOHN           PETER, Chief Executive Officer/President| Officer
+personnel,398874,,,,,,,,,,, ,, COOKE                              PATRICIA       ANN, Officer
+personnel,398874,,,,,,,,,,, | ,, COOKE                              MICHAEL, Officer| Officer
+personnel,398874,,,,,,,,,,, | C-7| C10| HIC,, COOKE                              DENIS, Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,398874,,,,,,,,,,, B| D05| C44,, COOKE                              JOHN           DONALD, Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,407354,,,,,,,,,,, C10| C10| HIC,, GRIFFIN                            DAN            ALLEN, Sole Owner| Sole Owner| Sole Owner
+personnel,408126,,,,,,,,,,, C10| ,, RICE                               ROBERT         ROLAND, Responsible Managing Officer/Chief Executive Officer/President| Deceased
+personnel,408126,,,,,,,,,,, ,, RICE                               WILMA          MAE, Officer
+personnel,408126,,,,,,,,,,, ,, JORDAN                             ROBERT         EDWARD, Officer
+personnel,408126,,,,,,,,,,, | C10| C-7,, RICE                               ROBERT         JOHN, Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,412702,,,,,,,,,,, C10| C10,, GEMMEL                             GERHARD, Sole Owner| Sole Owner
+personnel,414305,,,,,,,,,,, | ,, WELLS                              RONALD         PARRISH, Chief Executive Officer/President| Officer
+personnel,414305,,,,,,,,,,, ,, ROGERS                             JANET          SUSAN, Officer
+personnel,414305,,,,,,,,,,, ,, WITBECK                            ROBERT         LEO, Officer
+personnel,414305,,,,,,,,,,, A| HAZ| ASB| A| HAZ| ASB,, STACY                              DAVID          LEE, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,414305,,,,,,,,,,, | A,, FURNANZ                            GEORGE         JOSEPH, Officer| Responsible Managing Officer
+personnel,414305,,,,,,,,,,, | A,, KNIFFIN                            KURT           DOUGLAS, Officer| Responsible Managing Officer
+personnel,414305,,,,,,,,,,, | ,, BOLLIER                            JOHN           EMMETT, Officer| Chief Executive Officer/President
+personnel,414305,,,,,,,,,,, C10,, WEDEMEYER                          ANTHONY        DEAN, Responsible Managing Employee
+personnel,415608,,,,,,,,,,, D05| C-7| C10| C-7| C10,, JORDAN                             EUGENE         PATRICK, Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner
+personnel,420755,,,,,,,,,,, D05| C-7| C10,, THORNE                             ARTHUR         RODGER, Sole Owner| Sole Owner| Sole Owner
+personnel,420755,,,,,,,,,,, C46,, WENGLASZ                           ALVIN          EDDY, Responsible Managing Employee
+personnel,514919,,,,,,,,,,, C10| HIC,, WILLIAMS                           GEOFFREY       ALLEN, Sole Owner| Sole Owner
+personnel,584763,,,,,,,,,,, C10,, COX                                GREGORY        ALLEN, Sole Owner
+personnel,660566,,,,,,,,,,, ,, ANDRADE                            JUANITA        CHAVEZ, Officer
+personnel,660566,,,,,,,,,,, C10,, ANDRADE                            RALPH          JOSE, Responsible Managing Officer
+personnel,660566,,,,,,,,,,, C10| HIC| ,, ANDRADE                            SOTERO         PUERTA, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Chief Executive Officer/President
+personnel,710192,,,,,,,,,,, C10| HIC,, LU                                 SUI            PING, Sole Owner| Sole Owner
+personnel,728215,,,,,,,,,,, C10| HIC,, PITCOCK                            DANIEL         SCOTT, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,745897,,,,,,,,,,, C10,, NICHOLAS                           RUSSELL        LEE, Sole Owner
+personnel,756751,,,,,,,,,,, C10| C10,, COOK                               STEVEN         EARL, Sole Owner| Sole Owner
+personnel,757819,,,,,,,,,,, A| HIC| C10,, UGBO                               ERICSON        ERHUNMWUN, Sole Owner| Sole Owner| Sole Owner
+personnel,759370,,,,,,,,,,, C10| HIC,, TURTURICI                          TONY           SIMON, Sole Owner| Sole Owner
+personnel,770288,,,,,,,,,,, C10| B,, JANSSEN                            CASEY          LEE, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,770288,,,,,,,,,,, ,, STRASSBURG                         DE DE          JAYE, Officer
+personnel,770288,,,,,,,,,,, ,, JANSSEN                            JAMIE          ANN, Officer
+personnel,770288,,,,,,,,,,, ,, JANSSEN                            BRANDY         LYN, Officer
+personnel,770288,,,,,,,,,,, D09,, BRAND                              KENNETH        WAYNE, Responsible Managing Employee
+personnel,773533,,,,,,,,,,, C10| HIC| C10,, NIELSEN                            SIDNEY         JOHN, Sole Owner| Sole Owner| Responsible Managing Manager
+personnel,785247,,,,,,,,,,, ,, ZAMORA                             VICTOR         MANUEL, General Partner
+personnel,785247,,,,,,,,,,, ,, ZAMORA                             CONCHA         JUANITA, General Partner
+personnel,785247,,,,,,,,,,, C10,, DUNCAN                             GEORGE         HERMAN, Responsible Managing Employee
+personnel,785247,,,,,,,,,,, B,, PLACIDO                            ABELARDO       DIAGAN, Responsible Managing Employee
+personnel,786781,,,,,,,,,,, C10| C10| C15| HIC| B| C-7| A| C15| A| B| C-7,, MICHOVICH                          RAYO, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,786781,,,,,,,,,,, ,, MICHOVICH                          VEDRAN, Officer
+personnel,788566,,,,,,,,,,, C10| HIC,, MEDEIROS                           JOHN           KEVIN, Sole Owner| Sole Owner
+personnel,831134,,,,,,,,,,, C10,, FELLER                             DAVID          PAUL, Responsible Managing Officer/Chief Executive Officer/President
+personnel,831134,,,,,,,,,,, ,, FELLER                             KATHLEEN       ELLEN, Officer
+personnel,831333,,,,,,,,,,, ,, HUFT                               KANDRA         KAY, Officer
+personnel,831333,,,,,,,,,,, C20| C20| B| C20| B| C20| B| C36| C10| C10| C36,, HUFT                               BRIAN          DOUGLAS, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,831991,,,,,,,,,,, C10,, KEENE                              MIKE           WAYNE, Sole Owner
+personnel,833167,,,,,,,,,,, ,, TABORA                             JANETTE        DIAZ, LLC Member
+personnel,833167,,,,,,,,,,, C10| C10,, TABORA                             ROY            PADAYHAG, Responsible Managing Officer| Responsible Managing Manager
+personnel,836670,,,,,,,,,,, ,, SLAVENSKY                          CHERYL         ANN, Chief Executive Officer/President
+personnel,836670,,,,,,,,,,, C10| C10| C20| ,, SLAVENSKY                          MITCHELL       FRANK, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Deceased
+personnel,836670,,,,,,,,,,, C20| C10,, SLAVENSKY                          SCOTT          ALAN, Responsible Managing Employee| Responsible Managing Employee
+personnel,836670,,,,,,,,,,, C10| C20,, FAUSETT                            CHRISTOPHER    GEORGE, Responsible Managing Employee| Responsible Managing Employee
+personnel,841277,,,,,,,,,,, C10,, DUARTE                             JIMMY          CARL, Sole Owner
+personnel,842301,,,,,,,,,,, C10,, MACIEL                             DANIEL         MENDOZA, Sole Owner
+personnel,842797,,,,,,,,,,, C10,, GOMEZ                              RANDAL         EDWARD, Responsible Managing Officer/Chief Executive Officer/President
+personnel,842797,,,,,,,,,,, ,, GOMEZ                              PATTI          LANZA, Officer
+personnel,842797,,,,,,,,,,, ,, GOMEZ                              CHRISTA        ANGELA, Officer
+personnel,846584,,,,,,,,,,, C10,, SHATTERLY                          CHRISTOPHER    ROBIN, Sole Owner
+personnel,856270,,,,,,,,,,, B| C10| C36,, TRUONG                             KY, Sole Owner| Sole Owner| Sole Owner
+personnel,859771,,,,,,,,,,, C10,, LOPEZ-ROJAS                        MANUEL         JESUS, Sole Owner
+personnel,864102,,,,,,,,,,, B| C10,, MUELLER                            KERRY          DAVID, Sole Owner| Sole Owner
+personnel,875122,,,,,,,,,,, C10,, HIRSCH                             THOMAS         PAUL, Responsible Managing Officer/Chief Executive Officer/President
+personnel,880213,,,,,,,,,,, C10,, VENEGAS                            GILBERT        MACIAS, Sole Owner
+personnel,884247,,,,,,,,,,, | ,, MICHOVICH                          VEDRAN, Officer| Chief Executive Officer/President
+personnel,884247,,,,,,,,,,, ,, VUKOTIC                            SAVO, Chief Executive Officer/President
+personnel,884247,,,,,,,,,,, A| B| C-7| C10| C15,, MICHOVICH                          RAYO, Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,889509,,,,,,,,,,, C10,, TRAN                               OCEAN          VAN, Sole Owner
+personnel,890005,,,,,,,,,,, C10| C10,, NEVES                              JOSE           ALBERTO     JR, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President
+personnel,891317,,,,,,,,,,, C10,, AKIOKA                             DAYTON         JOHN, Sole Owner
+personnel,893100,,,,,,,,,,, C10,, KONKEL                             RICKEY         WALTER, Responsible Managing Officer
+personnel,893100,,,,,,,,,,, ,, DI PIERRO                          STEPHEN        PAUL, Chief Executive Officer/President
+personnel,895538,,,,,,,,,,, C10,, NELSON                             CHRISTIAN      EUGENE, Sole Owner
+personnel,902465,,,,,,,,,,, B| D28| C10,, LEWIS                              TIMOTHY        EDMOND, Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,902465,,,,,,,,,,, ,, LEWIS                              JULIE          MAE, Chief Executive Officer/President
+personnel,903561,,,,,,,,,,, C10,, NELSON                             DARREN         SCOTT, Responsible Managing Officer/Chief Executive Officer/President
+personnel,904919,,,,,,,,,,, C10,, CHAVEZ                             VICTOR         MANUEL, Sole Owner
+personnel,917560,,,,,,,,,,, ,, ABBE                               JENNIFER       LINNEA, Officer
+personnel,917560,,,,,,,,,,, C10,, GOOD                               KEVIN          DONALD, Responsible Managing Officer/Chief Executive Officer/President
+personnel,917560,,,,,,,,,,, ,, NORBERG                            SHELDON        STEWART, Officer
+personnel,919198,,,,,,,,,,, | C12,, CARNES                             MICHAEL        ANDREW, General Partner| Qualifying Partner
+personnel,919198,,,,,,,,,,, C12| | A| C10,, CARNES                             WILLIAM        MANTHAOS, Qualifying Partner| General Partner| Qualifying Partner| Qualifying Partner
+personnel,930514,,,,,,,,,,, C10| C10,, CERALDE                            CALVIN         LANDINGIN, Sole Owner| Responsible Managing Member
+personnel,944497,,,,,,,,,,, C10,, AGUILERA                           FRANCISCO      RODRIGUEZ, Sole Owner
+personnel,947628,,,,,,,,,,, C10| C10,, ROMERO                             STEVEN         RAYMOND, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President
+personnel,950015,,,,,,,,,,, B| C10,, WEN                                LEI, Sole Owner| Sole Owner
+personnel,951005,,,,,,,,,,, C10,, GRIFFIN                            KYLE           ORAL, Sole Owner
+personnel,951365,,,,,,,,,,, B| B| C10,, WANG                               JEFF| WANG                               QIONG, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,951768,,,,,,,,,,, C10,, GREEN                              KENNETH        PERRY, Responsible Managing Officer/Chief Executive Officer/President
+personnel,952883,,,,,,,,,,, B| C31| C10| C27| C49| D63| HAZ| B| D63| HAZ| A| ASB| D49,, GUY                                ALAN           CAULFIELD, Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,952883,,,,,,,,,,, | A| ASB,, TRAN                               HIEN           MANH, Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,952883,,,,,,,,,,, ,, LEIDER                             RICHARD        JOSEPH, Officer
+personnel,955361,,,,,,,,,,, C10,, ALKHAYAT                           AZHAR          AMIR, Sole Owner
+personnel,959863,,,,,,,,,,, C10,, FLORES                             JOAQUIN        GREGORIO, Sole Owner
+personnel,961634,,,,,,,,,,, ,, CHOI                               SHING          CHI, Chief Executive Officer/President
+personnel,961634,,,,,,,,,,, ,, CHOI                               VANNA          WAI, Officer
+personnel,961634,,,,,,,,,,, B| C36| C10,, WONG                               ANTONEY        LAP, Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,961686,,,,,,,,,,, C-7| C10,, CLARKE                             DAVID          ROY         JR, Sole Owner| Sole Owner
+personnel,968893,,,,,,,,,,, C10,, POUR                               ALI, Sole Owner
+personnel,972780,,,,,,,,,,, B| C10,, FONG                               SHUI           CHEONG, Sole Owner| Sole Owner
+personnel,973647,,,,,,,,,,, C10,, REYNOSO                            EDUARDO        ARROYO, Sole Owner
+personnel,974064,,,,,,,,,,, C10| C10,, SINGH                              GURDEEP, Sole Owner| Responsible Managing Member
+personnel,974365,,,,,,,,,,, C10| C10,, BOWDEN                             BILL           WESLEY, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President
+personnel,986303,,,,,,,,,,, C20,, KOSEV                              MILEN          GEORGIEV, Responsible Managing Employee
+personnel,986303,,,,,,,,,,, C36| C36| C20| C36| C20| C10,, DECHEV                             DIMITAR        ELKOV, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,987428,,,,,,,,,,, B| C10| C36,, DASHRAVDAN                         ENKHSARUUL, Sole Owner| Sole Owner| Sole Owner
+personnel,987448,,,,,,,,,,, A| B| C10,, HAW                                JEFFREY, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,988377,,,,,,,,,,, C10,, KUBEL                              JAMES          IRVING, Sole Owner
+personnel,996746,,,,,,,,,,, C10,, CHEN                               GUODONG| GUODONG                            CHEN, Sole Owner
+personnel,1006233,,,,,,,,,,, C10,, FASSANO                            ROBERT         JOSEPH, Responsible Managing Employee
+personnel,1006233,,,,,,,,,,, C10,, HOLDER                             JASON          D ROBERT, Responsible Managing Employee
+personnel,1006233,,,,,,,,,,, | A,, GOMEZ                              JUAN           PEDRO, Chief Executive Officer/President| Responsible Managing Officer
+personnel,1006233,,,,,,,,,,, D49| C10,, GOMEZ                              MARCOS         ANTONIO, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1006233,,,,,,,,,,, C10,, KELLEY                             CASEY          FRANKLIN, Responsible Managing Employee
+personnel,1006233,,,,,,,,,,, A| HAZ| A| HAZ,, LATZEN                             TRACY          SCOTT, Responsible Managing Employee| Responsible Managing Employee| Responsible Managing Employee| Responsible Managing Employee
+personnel,1006360,,,,,,,,,,, C10,, BICKEL                             BRODIE         SCOTT, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1006360,,,,,,,,,,, | C10,, MAGNES                             ANTHONY        ALLEN, Officer| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1006360,,,,,,,,,,, ,, MAGNES                             KARIN          SUE, Officer
+personnel,1021979,,,,,,,,,,, C10,, AREVALO                            HERBERT        DOUGLAS, Sole Owner
+personnel,1025671,,,,,,,,,,, C10,, FRISCH                             MICHAEL        JAMES, Responsible Managing Officer
+personnel,1025671,,,,,,,,,,, ,, FRISCH                             THOMAS         PAUL| TOM, Chief Executive Officer/President
+personnel,1033745,,,,,,,,,,, C10,, GRANT                              GREGORY        ANDREW, Sole Owner
+personnel,1034703,,,,,,,,,,, C10,, SWABY                              CESAR          ANTONIO, Sole Owner
+personnel,1037325,,,,,,,,,,, B| B| C36| C10,, JIANG                              JING           XIN, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1041565,,,,,,,,,,, C10| C10,, BALALIS                            THOMAS         MICHAEL, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1047168,,,,,,,,,,, B| C10| B| C10| B| C10| C27,, LEE                                MIN-HO, Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,1047168,,,,,,,,,,, | ,, PARK                               JIWON, Chief Executive Officer/President| Officer
+personnel,1052300,,,,,,,,,,, C10,, PARE                               HERVE, Sole Owner
+personnel,1059861,,,,,,,,,,, B| C10,, CHIU                               PETER, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1060365,,,,,,,,,,, ,, PHELPS                             RYAN           G, Officer
+personnel,1060365,,,,,,,,,,, C10| HAZ| A| C10| D31| B| A| C10| D31| B,, GRIFFITH                           THOMAS         JOSEPH, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer| Responsible Managing Officer
+personnel,1060365,,,,,,,,,,, ,, GATTO                              RONALD         LUIS, Officer
+personnel,1060365,,,,,,,,,,, ,, JAMES                              PAULA          DENISE, Officer
+personnel,1060365,,,,,,,,,,, C10,, VAUGHAN                            DREW           MICHAEL, Responsible Managing Officer
+personnel,1060365,,,,,,,,,,, ,, MCCAFFREE                          CHRISTOPHER    MARK, Officer
+personnel,1063959,,,,,,,,,,, C10,, GUERRERO MEDINA                    LUIS           ARMANDO, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1064040,,,,,,,,,,, C10,, FERNANDEZ                          ROBERT         LUIS, Responsible Managing Employee
+personnel,1064040,,,,,,,,,,, B| B,, KHAN                               JAMAL          MAHMOOD, Responsible Managing Officer| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1064040,,,,,,,,,,, ,, TARIQ                              QASSAM         MOHAMMAD, Chief Executive Officer/President
+personnel,1064040,,,,,,,,,,, C-5,, REYNA                              SALVADOR, Responsible Managing Employee
+personnel,1067098,,,,,,,,,,, C10,, QUINTERO                           MANUEL         ANTHONY, Sole Owner
+personnel,1069334,,,,,,,,,,, A| B| C10| C21| HAZ,, ARONSON                            MICHAEL        JAMES, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1072584,,,,,,,,,,, C10,, STEAD                              ANDREW, Responsible Managing Manager
+personnel,1073972,,,,,,,,,,, C10,, JOHNSON                            JASON          CROSLEY, Sole Owner
+personnel,1088756,,,,,,,,,,, B| C10| D41| C39,, GARZA                              MIGUEL         LONGORIA, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1089034,,,,,,,,,,, ,, FOAT                               DAVID          WILLIAM     III, Officer
+personnel,1089034,,,,,,,,,,, C10| B,, PIERSON                            JOSEPH         HENRY, Responsible Managing Officer/Chief Executive Officer/President| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1091416,,,,,,,,,,, C10| C45,, OTSEN                              MATTHEW        SCOTT, Responsible Managing Employee| Responsible Managing Employee
+personnel,1091416,,,,,,,,,,, ,, SALAZAR GOMBOA                     ADOLFO, Chief Executive Officer/President
+personnel,1092438,,,,,,,,,,, C10,, WOOD                               STENNETH       CARLTON     II, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1095168,,,,,,,,,,, C10,, SINGH                              PRANEEL        JEET, Sole Owner
+personnel,1102162,,,,,,,,,,, C10| C10,, TORRES                             ADALBERTO, Sole Owner| Responsible Managing Manager
+personnel,1104124,,,,,,,,,,, C10,, ZAMORA GARCIA                      JUAN           PABLO, Sole Owner
+personnel,1104325,,,,,,,,,,, B| C10,, PHAM                               TOAN           VAN, Responsible Managing Officer| Responsible Managing Officer
+personnel,1104325,,,,,,,,,,, ,, ALVAREZ                            JOSE           DE JESUS, Officer
+personnel,1105138,,,,,,,,,,, ,, MIKAYELYAN                         ANDRANIK, Chief Executive Officer/President
+personnel,1105138,,,,,,,,,,, C10,, VARDANYAN                          HAYK           HRACHIKI, Responsible Managing Officer
+personnel,1105989,,,,,,,,,,, C10,, BELKNAP                            DONALD         SHAWN, Sole Owner
+personnel,1107591,,,,,,,,,,, C10,, GARCIA LUIS                        YENER          URIEL, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1108207,,,,,,,,,,, C10| C10,, MARTINEZ ROCHA                     DANIEL         ALEJANDRO, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President
+personnel,1108207,,,,,,,,,,, ,, TORRES RODRIGUEZ                   MARIA          DE LA LUZ, Officer
+personnel,1109509,,,,,,,,,,, C10,, RUELAS                             BRYANT, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1112094,,,,,,,,,,, C10,, HUSBANDS                           GEOFFREY       BERNARD, Sole Owner
+personnel,1112407,,,,,,,,,,, C10,, CERVANTEZ                          EDWARDO, Responsible Managing Officer
+personnel,1112407,,,,,,,,,,, B,, FRANCISCO CHOCOTECO                RAMIRO, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1112910,,,,,,,,,,, C10,, CHEN                               JIANQIANG, Sole Owner
+personnel,1113310,,,,,,,,,,, C10,, JONES                              ANDREW         C, Sole Owner
+personnel,1113568,,,,,,,,,,, C10,, BENNETT                            CLAYTIN        VALENTINO, Responsible Managing Member
+personnel,1113568,,,,,,,,,,, ,, ROSS                               LISA           THEA, LLC Manager
+personnel,1113568,,,,,,,,,,, ,, BENNETT                            MARGARET       WIMARSI, LLC Manager
+personnel,1114649,,,,,,,,,,, C10,, IMRAAN                             MOHAMMED       TAWFEEK, Responsible Managing Officer/Chief Executive Officer/President
+personnel,1114726,,,,,,,,,,, C10,, SANCHEZ                            FABIAN         MORA, Sole Owner
+personnel,1114917,,,,,,,,,,, C10,, TELLEZ                             ALEJANDRO, Sole Owner
+personnel,1115031,,,,,,,,,,, C10| C10,, HOERZ                              CHRIS          RYAN, Sole Owner| Responsible Managing Officer/Chief Executive Officer/President

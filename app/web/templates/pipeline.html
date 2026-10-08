@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Pipeline Run{% endblock %}
+{% block content %}
+<h1>Pipeline Run</h1>
+{% if meta and meta.get('synthetic') %}
+<div class="banner">Sample data marked <strong>synthetic</strong> — not real CSLB records.</div>
+{% endif %}
+<div class="card">
+  <p class="muted">Latest run: {{ run.status if run else 'not started' }} · {{ run.finished_at if run else '' }}</p>
+  <table>
+    <tr><th>Stage</th><th>Count</th></tr>
+    <tr><td>Raw ingested</td><td>{{ funnel.raw }}</td></tr>
+    <tr><td>Primary after dedupe</td><td>{{ funnel.after_dedupe_primary }}</td></tr>
+    <tr><td>After hard ICP excludes</td><td>{{ funnel.after_hard_exclude }}</td></tr>
+    <tr><td>With website</td><td>{{ funnel.with_website }}</td></tr>
+    <tr><td>Owner verified</td><td>{{ funnel.owner_verified }}</td></tr>
+    <tr><td>Email status ok (non-guessed)</td><td>{{ funnel.email_ok }}</td></tr>
+    <tr><td>Hot / Warm</td><td>{{ funnel.hot_or_warm }}</td></tr>
+  </table>
+</div>
+<div class="card">
+  <h3>Top exclusion reasons</h3>
+  <ul>
+  {% for reason, count in funnel.exclude_reasons.items() %}
+    <li>{{ reason }} — {{ count }}</li>
+  {% else %}
+    <li class="muted">None</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Leads{% endblock %}
+{% block content %}
+<h1>Leads</h1>
+<p>
+  Filter:
+  <a href="/leads">All</a> |
+  <a href="/leads?tier=Hot">Hot</a> |
+  <a href="/leads?tier=Warm">Warm</a> |
+  <a href="/leads?tier=Cold">Cold</a>
+</p>
+<div class="card">
+<table>
+  <tr><th>Company</th><th>County</th><th>Tier</th><th>Score</th><th>Email</th><th></th></tr>
+  {% for row in rows %}
+  <tr>
+    <td>{{ row.company.business_name }}</td>
+    <td>{{ row.company.county }}</td>
+    <td>{% if row.score %}<span class="badge {{ row.score.tier }}">{{ row.score.tier }}</span>{% endif %}</td>
+    <td>{{ row.score.score if row.score else '—' }}</td>
+    <td>{{ row.email }}</td>
+    <td><a href="/leads/{{ row.company.id }}">Open</a></td>
+  </tr>
+  {% endfor %}
+</table>
+</div>
+<p><a href="/export/leads.csv">Export send-ready CSV</a></p>
+{% endblock %}

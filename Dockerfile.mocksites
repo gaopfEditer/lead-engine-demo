@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+WORKDIR /srv
+COPY mocksites ./mocksites
+EXPOSE 8081
+CMD ["python", "-m", "http.server", "8081", "--directory", "mocksites"]
