@@ -14,6 +14,16 @@ from app.services.verify import exportable_status
 from app.settings import settings
 
 
+def _public_website_display(company: Company) -> str:
+    slug = company.mock_site_slug
+    if slug:
+        return f"https://{slug}.demo.local/"
+    url = company.website_url or ""
+    if "127.0.0.1" in url or "localhost" in url:
+        return ""
+    return url
+
+
 def _latest_score(company: Company) -> Score | None:
     if not company.scores:
         return None
@@ -61,7 +71,8 @@ def leads_to_csv_rows(db: Session, companies: list[Company]) -> list[dict]:
             "sourced_at": company.sourced_at,
         }
         if settings.public_demo:
-            row = scrub_export_row(row, license_number=company.license_number)
+            row = scrub_export_row(row, license_number=company.license_number, company=company)
+            row["website"] = _public_website_display(company)
         rows.append(row)
     return rows
 

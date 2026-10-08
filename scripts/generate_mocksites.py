@@ -138,7 +138,13 @@ def main() -> None:
         owner = ""
         registry[lic] = build_site(slug, archetype, owner, row.get("BusinessName") or slug)
 
-    # attach sample owners from personnel in csv
+    first_personnel: dict[str, str] = {}
+    business_names: dict[str, str] = {
+        str(row["LicenseNumber"]): row.get("BusinessName") or ""
+        for row in licenses
+    }
+
+    # attach CSLB personnel to About/team pages (masked) for owner cross-check in the demo
     with csv_path.open(newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             if (row.get("record_type") or "").lower() != "personnel":
@@ -147,18 +153,32 @@ def main() -> None:
             if lic not in registry:
                 continue
             name = (row.get("PersonnelName") or row.get("Name") or "").strip()
+            if not name:
+                continue
+            first_personnel.setdefault(lic, name)
             title = (row.get("PersonnelTitle") or "").lower()
             if "owner" in title or "officer" in title or "president" in title or registry[lic]["archetype"] == "owner_match":
-                display_name = mask_person_name(name, license_number=lic) if name else name
+                display_name = mask_person_name(name, license_number=lic)
                 registry[lic]["owner_hint"] = display_name
-                # rebuild about page with owner for owner_match / hot leads
-                if display_name and registry[lic].get("slug"):
+                if registry[lic].get("slug"):
                     build_site(
                         registry[lic]["slug"],
                         registry[lic]["archetype"],
                         display_name,
-                        row.get("BusinessName") or registry[lic]["slug"],
+                        business_names.get(lic) or registry[lic]["slug"],
                     )
+
+    for lic, name in first_personnel.items():
+        if registry[lic].get("owner_hint") or not registry[lic].get("slug"):
+            continue
+        display_name = mask_person_name(name, license_number=lic)
+        registry[lic]["owner_hint"] = display_name
+        build_site(
+            registry[lic]["slug"],
+            registry[lic]["archetype"],
+            display_name,
+            business_names.get(lic) or registry[lic]["slug"],
+        )
 
     (DATA / "mock_site_registry.json").write_text(json.dumps(registry, indent=2), encoding="utf-8")
     print(f"Generated {len(registry)} mock sites")

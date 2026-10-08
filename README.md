@@ -68,7 +68,7 @@ This repository ships **`data/cslb_sample.csv`** (License Master + Personnel row
 
 ## Privacy (public demo)
 
-CSLB **personnel / owner** names are public records but are **masked** in this repo and on the Vercel read-only demo so individuals do not appear on a portfolio site. Company names and license numbers are unchanged.
+CSLB **personnel / owner** names are public records but are **masked** in this repo and on the Vercel read-only demo so individuals do not appear on a portfolio site. **Sole-proprietor licenses whose business name is a personal name** (CSLB entity type + name-shape heuristic) are masked as e.g. `Michael K. (Sole Proprietor)`. Trade-style sole-prop names (e.g. `LOPEZ ELECTRIC`) stay as-is. Mock website URLs in the snapshot use `https://contractor-{license}.demo.local/` (not localhost).
 
 | Context | Behavior |
 |---|---|
@@ -128,7 +128,7 @@ Or use **Recompute scores** on `/icp` (in-memory DB only; full rerun preferred f
 
 ## Deploy (Vercel, read-only)
 
-1. Ensure `demo_snapshot/lead_engine.db` is committed (regenerate with `make demo-snapshot` after mock sites are up on `:8081`).
+1. Ensure `demo_snapshot/lead_engine.db` is committed (regenerate with `python3 scripts/generate_mocksites.py` and `make demo-snapshot` while mock sites are served on `:8081`).
 2. Connect the repo to Vercel (Python runtime).
 3. Uses [`vercel.json`](vercel.json) → [`api/index.py`](api/index.py) with `DEMO_READ_ONLY=true`.
 

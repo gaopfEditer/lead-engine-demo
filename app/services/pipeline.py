@@ -9,14 +9,18 @@ from sqlalchemy.orm import Session
 from app.db.models import Company, Fact, PipelineRun
 from app.services.contacts import discover_contacts, resolve_owner
 from app.services.dedupe import build_merge_clusters
-from app.services.enrich import enrich_company
+from app.services.enrich import _looks_like_team_member_name, enrich_company
 from app.services.export import export_sample_bundle
 from app.services.ingest import ingest_cslb_sample
 from app.services.normalize import extract_domain
 from app.services.personalize import personalize_all
 from app.services.score import load_icp, score_all
 from app.services.suppress import apply_suppressions, load_suppressions
-from app.services.privacy import mask_person_name
+from app.services.privacy import (
+    mask_person_name,
+    mask_sole_proprietor_business_name,
+    should_mask_business_name,
+)
 from app.settings import settings
 
 
@@ -84,18 +88,35 @@ def compute_funnel(db: Session) -> dict:
     }
 
 
+def _drop_invalid_team_facts(db: Session) -> None:
+    for fact in db.query(Fact).filter(Fact.kind == "team_member").all():
+        if not _looks_like_team_member_name(fact.value):
+            db.delete(fact)
+    db.commit()
+
+
 def _persist_public_demo_masks(db: Session) -> None:
     """Store masked personnel in DB for committed Vercel snapshots."""
     if not settings.public_demo:
         return
     for company in db.query(Company).all():
         lic = company.license_number or ""
+        raw_business = company.business_name or ""
+        if should_mask_business_name(company):
+            company.business_name = mask_sole_proprietor_business_name(raw_business, license_number=lic)
+        if company.mock_site_slug:
+            slug = company.mock_site_slug
+            company.website_url = f"https://{slug}.demo.local/"
+            company.domain = f"{slug}.demo.local"
         if company.owner_name:
             company.owner_name = mask_person_name(company.owner_name, license_number=lic)
         for person in company.people:
             person.name = mask_person_name(person.name, license_number=lic)
         for fact in company.facts:
             if fact.kind == "team_member":
+                if not _looks_like_team_member_name(fact.value):
+                    db.delete(fact)
+                    continue
                 fact.value = mask_person_name(fact.value, license_number=lic)
                 fact.snippet = mask_person_name(fact.snippet, license_number=lic)
     db.commit()
@@ -145,6 +166,7 @@ def run_pipeline(db: Session, *, reset: bool = True) -> PipelineRun:
 
     apply_suppressions(db)
     score_all(db)
+    _drop_invalid_team_facts(db)
     personalize_all(db)
     _persist_public_demo_masks(db)
 

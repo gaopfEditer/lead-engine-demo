@@ -5,6 +5,7 @@ import re
 from sqlalchemy.orm import Session
 
 from app.db.models import Company, Draft, Fact
+from app.services.enrich import _looks_like_team_member_name
 from app.services.verify import exportable_status
 
 BANNED = re.compile(r"\b(save|discount|guarantee|\$\d+|free audit)\b", re.I)
@@ -15,8 +16,11 @@ def pick_fact(facts: list[Fact]) -> Fact | None:
     priority = ("hiring", "tech_stack", "team_member", "license_tenure")
     for kind in priority:
         for f in facts:
-            if f.kind == kind:
-                return f
+            if f.kind != kind:
+                continue
+            if kind == "team_member" and not _looks_like_team_member_name(f.value):
+                continue
+            return f
     return facts[0] if facts else None
 
 

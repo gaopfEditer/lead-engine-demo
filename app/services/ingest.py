@@ -9,7 +9,11 @@ from sqlalchemy.orm import Session
 
 from app.db.models import Company, Person
 from app.services.normalize import extract_domain, normalize_phone
-from app.services.privacy import mask_person_name
+from app.services.privacy import (
+    mask_person_name,
+    mask_sole_proprietor_business_name,
+    should_mask_business_name,
+)
 from app.settings import settings
 
 
@@ -80,10 +84,12 @@ def ingest_cslb_sample(db: Session, csv_path: Path | None = None) -> tuple[int, 
             domain = extract_domain(website)
         if domain == "127.0.0.1":
             domain = f"{slug}.demo.local" if slug else domain
+        business_name = row.get("BusinessName") or f"License {lic}"
+        business_type = row.get("BusinessType")
         company = Company(
             license_number=lic,
-            business_name=row.get("BusinessName") or f"License {lic}",
-            business_type=row.get("BusinessType"),
+            business_name=business_name,
+            business_type=business_type,
             address=row.get("Address"),
             city=row.get("City"),
             state=row.get("State"),
@@ -125,6 +131,11 @@ def ingest_cslb_sample(db: Session, csv_path: Path | None = None) -> tuple[int, 
                 )
             )
             people_count += 1
+
+        if settings.public_demo:
+            db.refresh(company, attribute_names=["people"])
+            if should_mask_business_name(company):
+                company.business_name = mask_sole_proprietor_business_name(business_name, license_number=lic)
 
     db.commit()
     return company_count, people_count

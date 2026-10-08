@@ -66,7 +66,8 @@
     "slug": "contractor-1113568",
     "website_url": "",
     "archetype": "facebook_only",
-    "notes": "Facebook-only presence"
+    "notes": "Facebook-only presence",
+    "owner_hint": "Claytin B."
   },
   "951768": {
     "slug": "contractor-951768",
@@ -220,7 +221,7 @@
     "website_url": "__MOCK__/contractor-785247/",
     "domain": "shared-duplicate.demo.local",
     "archetype": "duplicate_domain_b",
-    "owner_hint": ""
+    "owner_hint": "Victor Z."
   },
   "710192": {
     "slug": "contractor-710192",
@@ -269,14 +270,14 @@
     "website_url": "__MOCK__/contractor-919198/",
     "domain": "contractor-919198.demo.local",
     "archetype": "franchise",
-    "owner_hint": ""
+    "owner_hint": "Michael C."
   },
   "1072584": {
     "slug": "contractor-1072584",
     "website_url": "__MOCK__/contractor-1072584/",
     "domain": "contractor-1072584.demo.local",
     "archetype": "solo_shop",
-    "owner_hint": ""
+    "owner_hint": "Andrew S."
   },
   "390360": {
     "slug": "contractor-390360",

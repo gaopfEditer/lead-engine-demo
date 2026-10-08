@@ -14,6 +14,32 @@ from app.settings import settings
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 FRANCHISE_RE = re.compile(r"\b(franchise|franchising|national chain|corporate location)\b", re.I)
 TECH_RE = re.compile(r"\b(ServiceTitan|Housecall Pro|Jobber|Schedule Engine)\b", re.I)
+NAV_HEADING_RE = re.compile(
+    r"^(about|contact|careers?|jobs?|team|staff|leadership|our team|meet the team|services)\b",
+    re.I,
+)
+
+
+def _looks_like_team_member_name(text: str) -> bool:
+    text = (text or "").strip()
+    if not text or len(text) < 5 or len(text) > 72:
+        return False
+    if NAV_HEADING_RE.match(text):
+        return False
+    if text.lower().startswith("about "):
+        return False
+    if text.endswith(("!", "?")):
+        return False
+    if text.endswith(".") and not re.match(r"^[A-Z][a-z]+(?:['-][A-Z][a-z]+)* [A-Z]\.$", text):
+        return False
+    words = [w for w in re.split(r"\s+", text) if w]
+    if len(words) < 2:
+        return False
+    if any(len(w) > 24 for w in words):
+        return False
+    if any(ch.isdigit() for ch in text):
+        return False
+    return True
 
 
 def _add_fact(db: Session, company: Company, kind: str, value: str, url: str, snippet: str) -> Fact:
@@ -80,9 +106,9 @@ def enrich_company(db: Session, company: Company) -> None:
             )
 
         if any(k in low_url for k in ("team", "about", "staff")):
-            for h in tree.css("h1,h2,h3,strong"):
+            for h in tree.css("h2,h3,strong"):
                 t = h.text(strip=True)
-                if t and 3 < len(t) < 80:
+                if _looks_like_team_member_name(t):
                     _add_fact(db, company, "team_member", t, url, t)
 
         if TECH_RE.search(text):

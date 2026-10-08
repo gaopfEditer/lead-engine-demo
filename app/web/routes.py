@@ -5,12 +5,12 @@ from pathlib import Path
 
 import yaml
 from fastapi import APIRouter, Depends, Form, Request
-from fastapi.responses import FileResponse, HTMLResponse, PlainTextResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse
 from sqlalchemy.orm import Session, joinedload
 
 from app.db.models import Company, Draft, MergeCluster, PipelineRun, Score, SyncLog
 from app.db.session import SessionLocal, get_db
-from app.services.export import csv_string, export_sample_bundle, exportable_companies, leads_to_csv_rows, quality_report
+from app.services.export import csv_string, exportable_companies, leads_to_csv_rows, quality_report
 from app.services.pipeline import compute_funnel, run_pipeline
 from app.services.score import load_icp, score_all
 from app.services.privacy import scrub_company
@@ -146,9 +146,15 @@ def quality_page(request: Request, db: Session = Depends(get_db)):
 
 @router.get("/export/sample.csv")
 def export_sample(db: Session = Depends(get_db)):
-    out_dir = Path(__file__).resolve().parents[2] / "data" / "exports"
-    csv_path, _ = export_sample_bundle(db, out_dir)
-    return FileResponse(csv_path, filename="sample_50_leads.csv")
+    companies = exportable_companies(db)
+    companies = sorted(
+        companies,
+        key=lambda c: (c.scores[-1].score if c.scores else 0),
+        reverse=True,
+    )[:50]
+    rows = leads_to_csv_rows(db, companies)
+    headers = {"Content-Disposition": 'attachment; filename="sample_50_leads.csv"'}
+    return PlainTextResponse(csv_string(rows), media_type="text/csv", headers=headers)
 
 
 @router.get("/export/sample-report.json")
