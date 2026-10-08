@@ -63,6 +63,8 @@ def leads_page(
             joinedload(Company.scores),
             joinedload(Company.contacts),
             joinedload(Company.drafts),
+            joinedload(Company.people),
+            joinedload(Company.facts),
         )
         .filter(Company.is_primary_in_cluster.is_(True))
     )

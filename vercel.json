@@ -1,7 +1,18 @@
 {
   "version": 2,
-  "builds": [{ "src": "api/index.py", "use": "@vercel/python" }],
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/index.py" }
-  ]
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": [
+          "demo_snapshot/**",
+          "presets/**",
+          "data/cslb_sample.meta.json",
+          "app/web/templates/**"
+        ]
+      }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/api/index.py" }]
 }
