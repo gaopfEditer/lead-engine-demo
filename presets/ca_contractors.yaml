@@ -1,0 +1,30 @@
+version: ca_contractors_v1
+name: California HVAC / Plumbing / Electrical contractors
+counties:
+  - Alameda
+  - Sacramento
+classifications:
+  - C10
+  - C20
+  - C36
+hard_excludes:
+  franchise_fact: true
+  national_chain_keywords:
+    - ROTO-ROOTER
+    - SERVPRO
+    - MR. Rooter
+  min_years_in_business: 10
+  require_website: true
+  exclude_license_status:
+    - SUSPENDED
+weights:
+  years_in_business: 25
+  hiring_signal: 20
+  team_page: 10
+  tech_stack: 8
+  owner_verified: 15
+  email_ok: 12
+thresholds:
+  hot: 62
+  warm: 50
+signal_decay_days: 45

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Sync Log{% endblock %}
+{% block content %}
+<h1>CRM / Sheets sync</h1>
+<p class="muted">HubSpot adapter {% if hubspot_enabled %}enabled{% else %}dry-run (no token){% endif %}</p>
+<form hx-post="/sync/hubspot" hx-target="#sync-result">
+  <button type="submit">Push to HubSpot (dry-run)</button>
+</form>
+<ul id="sync-result">
+{% for log in logs %}
+  <li>{{ log.created_at }} — {{ log.destination }} — {{ log.status }} — {{ log.detail }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}ICP Editor{% endblock %}
+{% block content %}
+<h1>ICP configuration</h1>
+<div class="card">
+<pre>{{ icp_yaml }}</pre>
+</div>
+<form hx-post="/icp/recompute" hx-target="#recompute-result">
+  <button type="submit">Recompute scores</button>
+</form>
+<div id="recompute-result"></div>
+<p class="muted">Edit <code>presets/ca_contractors.yaml</code> and rerun <code>make demo</code> to change filters.</p>
+{% endblock %}

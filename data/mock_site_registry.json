@@ -1,0 +1,841 @@
+{
+  "22726": {
+    "slug": "contractor-22726",
+    "website_url": "__MOCK__/contractor-22726/",
+    "domain": "contractor-22726.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Rosalie A."
+  },
+  "1102162": {
+    "slug": "contractor-1102162",
+    "website_url": "__MOCK__/contractor-1102162/",
+    "domain": "contractor-1102162.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Adalberto T."
+  },
+  "831991": {
+    "slug": "contractor-831991",
+    "website_url": "__MOCK__/contractor-831991/",
+    "domain": "contractor-831991.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Mike K."
+  },
+  "836670": {
+    "slug": "contractor-836670",
+    "website_url": "__MOCK__/contractor-836670/",
+    "domain": "contractor-836670.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Christopher F."
+  },
+  "859771": {
+    "slug": "contractor-859771",
+    "website_url": "__MOCK__/contractor-859771/",
+    "domain": "contractor-859771.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Manuel L."
+  },
+  "1064040": {
+    "slug": "contractor-1064040",
+    "website_url": "__MOCK__/contractor-1064040/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Qassam T."
+  },
+  "1112407": {
+    "slug": "contractor-1112407",
+    "website_url": "__MOCK__/contractor-1112407/",
+    "domain": "contractor-1112407.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Chocoteco F."
+  },
+  "1112910": {
+    "slug": "contractor-1112910",
+    "website_url": "__MOCK__/contractor-1112910/",
+    "domain": "contractor-1112910.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Jianqiang C."
+  },
+  "180154": {
+    "slug": "contractor-180154",
+    "website_url": "__MOCK__/contractor-180154/",
+    "domain": "contractor-180154.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Kristin S."
+  },
+  "1113568": {
+    "slug": "contractor-1113568",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence"
+  },
+  "951768": {
+    "slug": "contractor-951768",
+    "website_url": "__MOCK__/contractor-951768/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Kenneth G."
+  },
+  "833167": {
+    "slug": "contractor-833167",
+    "website_url": "__MOCK__/contractor-833167/",
+    "domain": "contractor-833167.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Roy T."
+  },
+  "930514": {
+    "slug": "contractor-930514",
+    "website_url": "__MOCK__/contractor-930514/",
+    "domain": "contractor-930514.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Calvin C."
+  },
+  "1113310": {
+    "slug": "contractor-1113310",
+    "website_url": "__MOCK__/contractor-1113310/",
+    "domain": "contractor-1113310.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Andrew J."
+  },
+  "756751": {
+    "slug": "contractor-756751",
+    "website_url": "__MOCK__/contractor-756751/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Steven C."
+  },
+  "246673": {
+    "slug": "contractor-246673",
+    "website_url": "__MOCK__/contractor-246673/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Zivorad Z."
+  },
+  "1025671": {
+    "slug": "contractor-1025671",
+    "website_url": "__MOCK__/contractor-1025671/",
+    "domain": "contractor-1025671.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Thomas F."
+  },
+  "996746": {
+    "slug": "contractor-996746",
+    "website_url": "__MOCK__/contractor-996746/",
+    "domain": "contractor-996746.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Guodong C."
+  },
+  "955361": {
+    "slug": "contractor-955361",
+    "website_url": "__MOCK__/contractor-955361/",
+    "domain": "contractor-955361.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Azhar A."
+  },
+  "947628": {
+    "slug": "contractor-947628",
+    "website_url": "__MOCK__/contractor-947628/",
+    "domain": "contractor-947628.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Steven R."
+  },
+  "261291": {
+    "slug": "contractor-261291",
+    "website_url": "__MOCK__/contractor-261291/",
+    "domain": "contractor-261291.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Michael A."
+  },
+  "264444": {
+    "slug": "contractor-264444",
+    "website_url": "__MOCK__/contractor-264444/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Earle C."
+  },
+  "1112094": {
+    "slug": "contractor-1112094",
+    "website_url": "__MOCK__/contractor-1112094/",
+    "domain": "contractor-1112094.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Geoffrey H."
+  },
+  "959863": {
+    "slug": "contractor-959863",
+    "website_url": "__MOCK__/contractor-959863/",
+    "domain": "contractor-959863.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Joaquin F."
+  },
+  "1114649": {
+    "slug": "contractor-1114649",
+    "website_url": "__MOCK__/contractor-1114649/",
+    "domain": "contractor-1114649.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Mohammed I."
+  },
+  "951005": {
+    "slug": "contractor-951005",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Kyle G."
+  },
+  "1047168": {
+    "slug": "contractor-1047168",
+    "website_url": "__MOCK__/contractor-1047168/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Jiwon P."
+  },
+  "1041565": {
+    "slug": "contractor-1041565",
+    "website_url": "__MOCK__/contractor-1041565/",
+    "domain": "contractor-1041565.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Thomas B."
+  },
+  "1034703": {
+    "slug": "contractor-1034703",
+    "website_url": "__MOCK__/contractor-1034703/",
+    "domain": "contractor-1034703.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Cesar S."
+  },
+  "841277": {
+    "slug": "contractor-841277",
+    "website_url": "__MOCK__/contractor-841277/",
+    "domain": "contractor-841277.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Jimmy D."
+  },
+  "759370": {
+    "slug": "contractor-759370",
+    "website_url": "__MOCK__/contractor-759370/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Tony T."
+  },
+  "785247": {
+    "slug": "contractor-785247",
+    "website_url": "__MOCK__/contractor-785247/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": ""
+  },
+  "710192": {
+    "slug": "contractor-710192",
+    "website_url": "__MOCK__/contractor-710192/",
+    "domain": "contractor-710192.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Sui L."
+  },
+  "303019": {
+    "slug": "contractor-303019",
+    "website_url": "__MOCK__/contractor-303019/",
+    "domain": "contractor-303019.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Harold D."
+  },
+  "895538": {
+    "slug": "contractor-895538",
+    "website_url": "__MOCK__/contractor-895538/",
+    "domain": "contractor-895538.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Christian N."
+  },
+  "846584": {
+    "slug": "contractor-846584",
+    "website_url": "__MOCK__/contractor-846584/",
+    "domain": "contractor-846584.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Christopher S."
+  },
+  "1052300": {
+    "slug": "contractor-1052300",
+    "website_url": "__MOCK__/contractor-1052300/",
+    "domain": "contractor-1052300.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Herve P."
+  },
+  "1088756": {
+    "slug": "contractor-1088756",
+    "website_url": "__MOCK__/contractor-1088756/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Miguel G."
+  },
+  "919198": {
+    "slug": "contractor-919198",
+    "website_url": "__MOCK__/contractor-919198/",
+    "domain": "contractor-919198.demo.local",
+    "archetype": "franchise",
+    "owner_hint": ""
+  },
+  "1072584": {
+    "slug": "contractor-1072584",
+    "website_url": "__MOCK__/contractor-1072584/",
+    "domain": "contractor-1072584.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": ""
+  },
+  "390360": {
+    "slug": "contractor-390360",
+    "website_url": "__MOCK__/contractor-390360/",
+    "domain": "contractor-390360.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Jeffrey J."
+  },
+  "903561": {
+    "slug": "contractor-903561",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Darren N."
+  },
+  "1108207": {
+    "slug": "contractor-1108207",
+    "website_url": "__MOCK__/contractor-1108207/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Rodriguez T."
+  },
+  "1105989": {
+    "slug": "contractor-1105989",
+    "website_url": "__MOCK__/contractor-1105989/",
+    "domain": "contractor-1105989.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Donald B."
+  },
+  "770288": {
+    "slug": "contractor-770288",
+    "website_url": "__MOCK__/contractor-770288/",
+    "domain": "contractor-770288.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Brandy J."
+  },
+  "1107591": {
+    "slug": "contractor-1107591",
+    "website_url": "__MOCK__/contractor-1107591/",
+    "domain": "contractor-1107591.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Luis G."
+  },
+  "407354": {
+    "slug": "contractor-407354",
+    "website_url": "__MOCK__/contractor-407354/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Dan G."
+  },
+  "974365": {
+    "slug": "contractor-974365",
+    "website_url": "__MOCK__/contractor-974365/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Bill B."
+  },
+  "1021979": {
+    "slug": "contractor-1021979",
+    "website_url": "__MOCK__/contractor-1021979/",
+    "domain": "contractor-1021979.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Herbert A."
+  },
+  "1114726": {
+    "slug": "contractor-1114726",
+    "website_url": "__MOCK__/contractor-1114726/",
+    "domain": "contractor-1114726.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Fabian S."
+  },
+  "974064": {
+    "slug": "contractor-974064",
+    "website_url": "__MOCK__/contractor-974064/",
+    "domain": "contractor-974064.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Gurdeep S."
+  },
+  "831134": {
+    "slug": "contractor-831134",
+    "website_url": "__MOCK__/contractor-831134/",
+    "domain": "contractor-831134.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Kathleen F."
+  },
+  "1037325": {
+    "slug": "contractor-1037325",
+    "website_url": "__MOCK__/contractor-1037325/",
+    "domain": "contractor-1037325.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Jing J."
+  },
+  "1006233": {
+    "slug": "contractor-1006233",
+    "website_url": "__MOCK__/contractor-1006233/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Marcos G."
+  },
+  "951365": {
+    "slug": "contractor-951365",
+    "website_url": "__MOCK__/contractor-951365/",
+    "domain": "contractor-951365.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Jeff W."
+  },
+  "904919": {
+    "slug": "contractor-904919",
+    "website_url": "__MOCK__/contractor-904919/",
+    "domain": "contractor-904919.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Victor C."
+  },
+  "875122": {
+    "slug": "contractor-875122",
+    "website_url": "__MOCK__/contractor-875122/",
+    "domain": "contractor-875122.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Thomas H."
+  },
+  "842797": {
+    "slug": "contractor-842797",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Christa G."
+  },
+  "880213": {
+    "slug": "contractor-880213",
+    "website_url": "__MOCK__/contractor-880213/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Gilbert V."
+  },
+  "1060365": {
+    "slug": "contractor-1060365",
+    "website_url": "__MOCK__/contractor-1060365/",
+    "domain": "contractor-1060365.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Christopher M."
+  },
+  "745897": {
+    "slug": "contractor-745897",
+    "website_url": "__MOCK__/contractor-745897/",
+    "domain": "contractor-745897.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Russell N."
+  },
+  "1089034": {
+    "slug": "contractor-1089034",
+    "website_url": "__MOCK__/contractor-1089034/",
+    "domain": "contractor-1089034.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Joseph P."
+  },
+  "1067098": {
+    "slug": "contractor-1067098",
+    "website_url": "__MOCK__/contractor-1067098/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Manuel Q."
+  },
+  "348215": {
+    "slug": "contractor-348215",
+    "website_url": "__MOCK__/contractor-348215/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Peter N."
+  },
+  "1091416": {
+    "slug": "contractor-1091416",
+    "website_url": "__MOCK__/contractor-1091416/",
+    "domain": "contractor-1091416.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Gomboa S."
+  },
+  "1115031": {
+    "slug": "contractor-1115031",
+    "website_url": "__MOCK__/contractor-1115031/",
+    "domain": "contractor-1115031.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Chris H."
+  },
+  "1063959": {
+    "slug": "contractor-1063959",
+    "website_url": "__MOCK__/contractor-1063959/",
+    "domain": "contractor-1063959.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Medina G."
+  },
+  "893100": {
+    "slug": "contractor-893100",
+    "website_url": "__MOCK__/contractor-893100/",
+    "domain": "contractor-893100.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Pierro D."
+  },
+  "362691": {
+    "slug": "contractor-362691",
+    "website_url": "__MOCK__/contractor-362691/",
+    "domain": "contractor-362691.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Ronald S."
+  },
+  "944497": {
+    "slug": "contractor-944497",
+    "website_url": "__MOCK__/contractor-944497/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Francisco A."
+  },
+  "1033745": {
+    "slug": "contractor-1033745",
+    "website_url": "__MOCK__/contractor-1033745/",
+    "domain": "contractor-1033745.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Gregory G."
+  },
+  "365598": {
+    "slug": "contractor-365598",
+    "website_url": "__MOCK__/contractor-365598/",
+    "domain": "contractor-365598.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "William H."
+  },
+  "889509": {
+    "slug": "contractor-889509",
+    "website_url": "__MOCK__/contractor-889509/",
+    "domain": "contractor-889509.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Ocean T."
+  },
+  "514919": {
+    "slug": "contractor-514919",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Geoffrey W."
+  },
+  "884247": {
+    "slug": "contractor-884247",
+    "website_url": "__MOCK__/contractor-884247/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Rayo M."
+  },
+  "1092438": {
+    "slug": "contractor-1092438",
+    "website_url": "__MOCK__/contractor-1092438/",
+    "domain": "contractor-1092438.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Stenneth W."
+  },
+  "891317": {
+    "slug": "contractor-891317",
+    "website_url": "__MOCK__/contractor-891317/",
+    "domain": "contractor-891317.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Dayton A."
+  },
+  "773533": {
+    "slug": "contractor-773533",
+    "website_url": "__MOCK__/contractor-773533/",
+    "domain": "contractor-773533.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Sidney N."
+  },
+  "1059861": {
+    "slug": "contractor-1059861",
+    "website_url": "__MOCK__/contractor-1059861/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Peter C."
+  },
+  "842301": {
+    "slug": "contractor-842301",
+    "website_url": "__MOCK__/contractor-842301/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Daniel M."
+  },
+  "788566": {
+    "slug": "contractor-788566",
+    "website_url": "__MOCK__/contractor-788566/",
+    "domain": "contractor-788566.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "John M."
+  },
+  "1114917": {
+    "slug": "contractor-1114917",
+    "website_url": "__MOCK__/contractor-1114917/",
+    "domain": "contractor-1114917.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Alejandro T."
+  },
+  "890005": {
+    "slug": "contractor-890005",
+    "website_url": "__MOCK__/contractor-890005/",
+    "domain": "contractor-890005.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Jose N."
+  },
+  "379245": {
+    "slug": "contractor-379245",
+    "website_url": "__MOCK__/contractor-379245/",
+    "domain": "contractor-379245.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Timothy B."
+  },
+  "988377": {
+    "slug": "contractor-988377",
+    "website_url": "__MOCK__/contractor-988377/",
+    "domain": "contractor-988377.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "James K."
+  },
+  "968893": {
+    "slug": "contractor-968893",
+    "website_url": "__MOCK__/contractor-968893/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Ali P."
+  },
+  "986303": {
+    "slug": "contractor-986303",
+    "website_url": "__MOCK__/contractor-986303/",
+    "domain": "contractor-986303.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Dimitar D."
+  },
+  "950015": {
+    "slug": "contractor-950015",
+    "website_url": "__MOCK__/contractor-950015/",
+    "domain": "contractor-950015.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Lei W."
+  },
+  "961686": {
+    "slug": "contractor-961686",
+    "website_url": "__MOCK__/contractor-961686/",
+    "domain": "contractor-961686.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "David C."
+  },
+  "831333": {
+    "slug": "contractor-831333",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Brian H."
+  },
+  "757819": {
+    "slug": "contractor-757819",
+    "website_url": "__MOCK__/contractor-757819/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "Ericson U."
+  },
+  "856270": {
+    "slug": "contractor-856270",
+    "website_url": "__MOCK__/contractor-856270/",
+    "domain": "contractor-856270.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Ky T."
+  },
+  "397149": {
+    "slug": "contractor-397149",
+    "website_url": "__MOCK__/contractor-397149/",
+    "domain": "contractor-397149.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "George S."
+  },
+  "1104124": {
+    "slug": "contractor-1104124",
+    "website_url": "__MOCK__/contractor-1104124/",
+    "domain": "contractor-1104124.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Garcia Z."
+  },
+  "398874": {
+    "slug": "contractor-398874",
+    "website_url": "__MOCK__/contractor-398874/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "John C."
+  },
+  "1109509": {
+    "slug": "contractor-1109509",
+    "website_url": "__MOCK__/contractor-1109509/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Bryant R."
+  },
+  "987428": {
+    "slug": "contractor-987428",
+    "website_url": "__MOCK__/contractor-987428/",
+    "domain": "contractor-987428.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Enkhsaruul D."
+  },
+  "961634": {
+    "slug": "contractor-961634",
+    "website_url": "__MOCK__/contractor-961634/",
+    "domain": "contractor-961634.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Antoney W."
+  },
+  "1073972": {
+    "slug": "contractor-1073972",
+    "website_url": "__MOCK__/contractor-1073972/",
+    "domain": "contractor-1073972.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Jason J."
+  },
+  "1105138": {
+    "slug": "contractor-1105138",
+    "website_url": "__MOCK__/contractor-1105138/",
+    "domain": "contractor-1105138.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Hayk V."
+  },
+  "584763": {
+    "slug": "contractor-584763",
+    "website_url": "__MOCK__/contractor-584763/",
+    "domain": "contractor-584763.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Gregory C."
+  },
+  "1104325": {
+    "slug": "contractor-1104325",
+    "website_url": "__MOCK__/contractor-1104325/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Jose A."
+  },
+  "1095168": {
+    "slug": "contractor-1095168",
+    "website_url": "__MOCK__/contractor-1095168/",
+    "domain": "contractor-1095168.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Praneel S."
+  },
+  "408126": {
+    "slug": "contractor-408126",
+    "website_url": "__MOCK__/contractor-408126/",
+    "domain": "contractor-408126.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Robert R."
+  },
+  "412702": {
+    "slug": "contractor-412702",
+    "website_url": "__MOCK__/contractor-412702/",
+    "domain": "contractor-412702.demo.local",
+    "archetype": "no_team",
+    "owner_hint": "Gerhard G."
+  },
+  "972780": {
+    "slug": "contractor-972780",
+    "website_url": "",
+    "archetype": "facebook_only",
+    "notes": "Facebook-only presence",
+    "owner_hint": "Shui F."
+  },
+  "414305": {
+    "slug": "contractor-414305",
+    "website_url": "__MOCK__/contractor-414305/",
+    "domain": "invalid-mx-demo.local",
+    "archetype": "invalid_mx",
+    "owner_hint": "John B."
+  },
+  "660566": {
+    "slug": "contractor-660566",
+    "website_url": "__MOCK__/contractor-660566/",
+    "domain": "contractor-660566.demo.local",
+    "archetype": "guessed_only",
+    "owner_hint": "Sotero A."
+  },
+  "415608": {
+    "slug": "contractor-415608",
+    "website_url": "__MOCK__/contractor-415608/",
+    "domain": "contractor-415608.demo.local",
+    "archetype": "warm_lead",
+    "owner_hint": "Eugene J."
+  },
+  "1069334": {
+    "slug": "contractor-1069334",
+    "website_url": "__MOCK__/contractor-1069334/",
+    "domain": "contractor-1069334.demo.local",
+    "archetype": "cold_lead",
+    "owner_hint": "Michael A."
+  },
+  "420755": {
+    "slug": "contractor-420755",
+    "website_url": "__MOCK__/contractor-420755/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_a",
+    "owner_hint": "Arthur T."
+  },
+  "728215": {
+    "slug": "contractor-728215",
+    "website_url": "__MOCK__/contractor-728215/",
+    "domain": "shared-duplicate.demo.local",
+    "archetype": "duplicate_domain_b",
+    "owner_hint": "Daniel P."
+  },
+  "987448": {
+    "slug": "contractor-987448",
+    "website_url": "__MOCK__/contractor-987448/",
+    "domain": "contractor-987448.demo.local",
+    "archetype": "hot_lead",
+    "owner_hint": "Jeffrey H."
+  },
+  "917560": {
+    "slug": "contractor-917560",
+    "website_url": "__MOCK__/contractor-917560/",
+    "domain": "contractor-917560.demo.local",
+    "archetype": "hiring_signal",
+    "owner_hint": "Sheldon N."
+  },
+  "973647": {
+    "slug": "contractor-973647",
+    "website_url": "__MOCK__/contractor-973647/",
+    "domain": "contractor-973647.demo.local",
+    "archetype": "tech_stack",
+    "owner_hint": "Eduardo R."
+  },
+  "902465": {
+    "slug": "contractor-902465",
+    "website_url": "__MOCK__/contractor-902465/",
+    "domain": "contractor-902465.demo.local",
+    "archetype": "owner_match",
+    "owner_hint": "Julie L."
+  },
+  "952883": {
+    "slug": "contractor-952883",
+    "website_url": "__MOCK__/contractor-952883/",
+    "domain": "contractor-952883.demo.local",
+    "archetype": "role_email",
+    "owner_hint": "Richard L."
+  },
+  "1006360": {
+    "slug": "contractor-1006360",
+    "website_url": "__MOCK__/contractor-1006360/",
+    "domain": "catchall-demo.local",
+    "archetype": "catch_all_email",
+    "owner_hint": "Karin M."
+  },
+  "864102": {
+    "slug": "contractor-864102",
+    "website_url": "__MOCK__/contractor-864102/",
+    "domain": "contractor-864102.demo.local",
+    "archetype": "franchise",
+    "owner_hint": "Kerry M."
+  },
+  "786781": {
+    "slug": "contractor-786781",
+    "website_url": "__MOCK__/contractor-786781/",
+    "domain": "contractor-786781.demo.local",
+    "archetype": "solo_shop",
+    "owner_hint": "Vedran M."
+  }
+}

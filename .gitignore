@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/lead_engine.db
+data/exports/
+data/cslb_raw_counties.xlsx
+data/cslb_personnel_full.csv
+*.egg-info/
+.DS_Store

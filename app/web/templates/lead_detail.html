@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{ company.business_name }}{% endblock %}
+{% block content %}
+<h1>{{ company.business_name }}</h1>
+<p class="muted">License {{ company.license_number }} · {{ company.county }} · sourced {{ company.sourced_at }}</p>
+<div class="card">
+  <h3>Score {% if score %}<span class="badge {{ score.tier }}">{{ score.tier }} {{ score.score }}</span>{% endif %}</h3>
+  <ul>
+  {% for reason in (score.reasons_json if score else []) %}
+    <li>{{ reason.text }} — <a href="{{ reason.evidence_url }}" target="_blank">evidence</a> <span class="muted">fact #{{ reason.fact_id }}</span></li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="card">
+  <h3>Facts</h3>
+  <ul>
+  {% for fact in company.facts %}
+    <li><strong>{{ fact.kind }}</strong>: {{ fact.value }} <span class="muted">({{ fact.observed_at }})</span> — <a href="{{ fact.evidence_url }}">source</a><br><small>{{ fact.snippet }}</small></li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="card">
+  <h3>Owner</h3>
+  <p>{{ company.owner_name or '—' }} <span class="badge">{{ company.owner_status }}</span></p>
+  <p class="muted">{{ company.owner_evidence }}</p>
+</div>
+<div class="card">
+  <h3>Contacts</h3>
+  <ul>
+  {% for c in company.contacts %}
+    <li>{{ c.value }} — {{ c.status }}{% if c.is_guessed %} (guessed){% endif %}{% if c.is_role_based %} (role){% endif %}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% if draft %}
+<div class="card">
+  <h3>First-line draft</h3>
+  <p>{{ draft.first_line }}</p>
+  <form hx-post="/leads/{{ company.id }}/draft" hx-target="#draft-status">
+    <input type="hidden" name="action" value="approve">
+    <button type="submit">Approve</button>
+  </form>
+  <form hx-post="/leads/{{ company.id }}/draft" hx-target="#draft-status">
+    <input type="hidden" name="action" value="reject">
+    <button type="submit">Reject</button>
+  </form>
+  <div id="draft-status"><span class="badge">{{ draft.status }}</span></div>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,18 @@
+{
+  "source_url": "https://www.cslb.ca.gov/OnlineServices/DataPortal/ListByCounty.aspx",
+  "download_date": "2026-10-08",
+  "counties": [
+    "Alameda",
+    "Sacramento"
+  ],
+  "classifications": [
+    "C-10",
+    "C-20",
+    "C-36"
+  ],
+  "synthetic": false,
+  "notes": "Subset of official CSLB export; personnel joined from statewide Personnel CSV filtered to sample licenses.",
+  "personnel_rows": 240,
+  "personnel_names_masked": true,
+  "personnel_name_hash_count": 238
+}
